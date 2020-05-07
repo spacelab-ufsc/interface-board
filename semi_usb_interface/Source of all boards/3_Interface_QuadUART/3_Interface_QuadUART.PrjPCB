@@ -38,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=0_Architecture.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=1_Interface_QuadUART.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YAMHFASY
 
-[Document3]
+[Document2]
 DocumentPath=..\..\Libraries\IB_floripasat2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -86,9 +69,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RNKVWLNM
 
-[Document4]
+[Document3]
 DocumentPath=..\..\Libraries\IB_floripasat2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -103,9 +86,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UFGLWNFP
 
-[Document5]
+[Document4]
 DocumentPath=1_Interface_QuadUART.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
