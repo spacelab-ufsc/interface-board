@@ -48,7 +48,7 @@ AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -99,7 +99,7 @@ AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -122,17 +122,38 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FAJDLYGH
 
+[Document6]
+DocumentPath=..\..\Output files of all boards\Job configuration files\1_Interface_Charge_RBF.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for 1_Interface_Charge_RBF\Design Rule Check - 1_Interface_Charge_RBF.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Revision
-Value=1.0
+Name=Drawer
+Value=Yan Castro de Azeredo
 
 [Parameter2]
 Name=Model
 Value=Engineering
 
 [Parameter3]
-Name=Drawer
-Value=Yan Castro de Azeredo
+Name=Revision
+Value=1.0
 
 [Configuration1]
 Name=Sources
