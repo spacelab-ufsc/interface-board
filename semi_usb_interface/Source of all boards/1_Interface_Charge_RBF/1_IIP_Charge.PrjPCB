@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for 1_IIP_Charge
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -89,24 +89,24 @@ GenerateClassCluster=0
 DocumentUniqueId=UFGLWNFP
 
 [Document4]
-DocumentPath=1_Interface_Charge_RBF.SchDoc
+DocumentPath=1_IIP_Charge.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JEWTGKTE
 
 [Document5]
-DocumentPath=1_Interface_Charge_RBF.PcbDoc
+DocumentPath=1_IIP_Charge.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FAJDLYGH
 
 [Document6]
-DocumentPath=..\..\Output files of all boards\Job configuration files\1_Interface_Charge_RBF.OutJob
+DocumentPath=..\..\Output files of all boards\Job configuration files\1_IIP_Charge.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +140,139 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
+DocumentPath=..\..\Output files of all boards\NC Drill Files\1_IIP_Charge.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=..\..\Output files of all boards\Gerber Files\1_IIP_Charge.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=..\..\Output files of all boards\NC Drill Files\1_IIP_Charge.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=..\..\Output files of all boards\Gerber Files\1_IIP_Charge.REP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\1_IIP_Charge.REP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=..\..\Output files of all boards\Gerber Files\1_IIP_Charge.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\user\1_IIP_Charge.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=..\..\Output files of all boards\STEP files\1_IIP_Charge.step
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=..\..\Output files of all boards\NC Drill Files\1_IIP_Charge.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=..\..\Output files of all boards\PARASOLID files\1_IIP_Charge.x_t
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=..\..\Output files of all boards\Bill of Materials\Bill of Materials-1_IIP_Charge.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for 1_IIP_Charge\Design Rule Check - 1_IIP_Charge.html
+DItemRevisionGUID=
+
+[GeneratedDocument16]
 DocumentPath=Project Outputs for 1_Interface_Charge_RBF\Design Rule Check - 1_Interface_Charge_RBF.html
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\keep-out_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=..\..\Output files of all boards\Pick and place files\Pick Place for 1_IIP_Charge.txt
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=..\..\Output files of all boards\ODB++ Files\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Parameter1]
@@ -164,6 +296,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=Project Outputs for 1_IIP_Charge
 
 [OutputGroup1]
 Name=Netlist Outputs
