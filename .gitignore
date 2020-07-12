@@ -1,3 +1,18 @@
 # Temporarily disabling track for full usb variant files 
-
 full_usb_interface/
+
+# Altium version control and status files
+*History
+*__Previews
+Project Outputs*
+*.log
+*.Dat
+
+# Altium output files (expect ziped)
+!*.zip
+#!semi_usb_interface/Output files of all boards/Gerber Files/*.zip
+semi_usb_interface/Output files of all boards/Gerber Files/*
+semi_usb_interface/Output files of all boards/NC Drill Files/*
+semi_usb_interface/Output files of all boards/ODB++ Files/*
+semi_usb_interface/Output files of all boards/Status Report.txt
+!*.zip
