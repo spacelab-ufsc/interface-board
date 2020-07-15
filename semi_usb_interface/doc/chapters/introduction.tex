@@ -1,0 +1,43 @@
+%
+% introduction.tex
+%
+% Copyright © 2020 by Universidade Federal de Santa Catarina.
+%
+% Interstage Interface Panels of FloripaSat-2
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+% International License. To view a copy of this license,
+% visit http://creativecommons.org/licenses/by-sa/4.0/.
+%
+
+%
+% \brief: Introduction file.
+%
+% \author: Yan Castro de Azeredo <yan.ufsceel@gmail.com>
+%
+% \institution: Universidade Federal de Santa Catarina (UFSC)
+%
+% \version: 0.1.0
+%
+% \date: 14/07/20 (DD/MM/YY)
+%
+%  Credits to Gabriel Mariano Marcelino <gabriel.mm8@gmail.com> for the creation of the SpaceLab Template
+%
+
+\chapter{Introduction} \label{ch:introduction}
+
+The Interstage Interface Panels (IIP) are vertical mounted PCBs designed 
+to give external access to the modules inside of a 2U CubeSat during 
+final assembly, integration and testing (AIT) before launch.
+IIP is composed of 3 different boards, the complete set allows for the nanosatellite
+to be charged, programed and debugged. The project is inspired by other solutions already developed, 
+such as the GOMspace NanoUtil Interstage. The design was developed taking into account the use of 
+a MSP-FET: MSP430 Flash Emulation Tool from Texas Instruments for JTAG interfacing,
+and the FT4232H USB bridge IC from Future Technologies Devices International (FTDI) for quad UART debug channels. 
+
+The main motivation for the project was the necessity of a custom off the shelf
+solution for making the external interface of the FloripaSat-2 CubeSat. The Interface Board of the 
+first CubeSat launched by SpaceLab UFSC, FloripaSat-1, was designed for 1U structure. While both interfaces
+are very different, some hardware choices were inheritated because of the already features in 
+the core modules used, such as the use of PicoBlade connectors for internal connection
+betweem modules and interface.
