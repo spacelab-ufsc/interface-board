@@ -4,16 +4,25 @@ C:\Users\yanaz\OneDrive\Área de Trabalho\SpaceLab\FloripaSat-2\Hardware Developm
 ========================================================================================================================
 File Design Information:
 
-Date:       03/07/20
-Time:       11:11
-Revision:   57f293df2ce5855442b43621c9aa45af2a5474f6
+Date:       19/07/20
+Time:       00:32
+Revision:   3a674ed8fab4c28005428851f9ed19fd0f25f3a0
 Variant:    No variations
 Units used: mil
 
 Designator Comment                             Layer       Footprint                     Center-X(mil) Center-Y(mil) Rotation Description                                                                                    
 CN5        "4 pin Picoblade"                   BottomLayer PICO_BLADE_0533980471         1855.118      925.814       360      "Connector Header Surface Mount 4 position 0.049" (1.25mm)"                                    
 CN1        "2 POS Pin Header"                  TopLayer    CONN_HEADER_VERT_2POS_2.54mm  2420.276      516.535       270      "M20 HDR, PIN, SIL, VERT, 2W"                                                                  
+FD3        Fiducial                            TopLayer    FIDUCIAL_1.3MM                295.276       157.480       0        "Fiducial for DB board variants"                                                               
+FD2        Fiducial                            TopLayer    FIDUCIAL_1.3MM                2362.205      944.882       0        "Fiducial for DB board variants"                                                               
+FD1        Fiducial                            TopLayer    FIDUCIAL_1.3MM                295.276       944.882       0        "Fiducial for DB board variants"                                                               
 CN7        "6 pin Picoblade"                   BottomLayer PICO_BLADE_0533980671         1855.118      157.480       180      "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 6 Circuits"                          
+TP2        DNP                                 TopLayer    TEST_POINT_PTH                1555.118      681.126       0        "TEST POINT PAD"                                                                               
+TP1        DNP                                 TopLayer    TEST_POINT_PTH                502.362       681.126       0        "TEST POINT PAD"                                                                               
+M4         "IB Mechanical Hole"                TopLayer    IB_MECHANICAL_HOLE            2529.528      118.110       0        "Mechanical Hole for FloripaSat-2 interface boards"                                            
+M3         "IB Mechanical Hole"                TopLayer    IB_MECHANICAL_HOLE            127.953       118.110       0        "Mechanical Hole for FloripaSat-2 interface boards"                                            
+M1         "IB Mechanical Hole"                TopLayer    IB_MECHANICAL_HOLE            127.953       984.252       0        "Mechanical Hole for FloripaSat-2 interface boards"                                            
+M2         "IB Mechanical Hole"                TopLayer    IB_MECHANICAL_HOLE            2529.528      984.252       0        "Mechanical Hole for FloripaSat-2 interface boards"                                            
 CN6        "7 POS dual line Pin Header 2.54mm" TopLayer    CONN_HEADER_VERT_14POS_2.54MM 1855.118      511.811       360      "Headers & Wire Housings 07+07 DIL VERTICAL PIN HEADER GOLD HT"                                
 CN3        "6 pin Picoblade"                   BottomLayer PICO_BLADE_0533980671         802.362       157.480       180      "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 6 Circuits"                          
 CN2        "7 POS dual line Pin Header 2.54mm" TopLayer    CONN_HEADER_VERT_14POS_2.54MM 802.362       511.024       360      "Headers & Wire Housings 07+07 DIL VERTICAL PIN HEADER GOLD HT"                                
