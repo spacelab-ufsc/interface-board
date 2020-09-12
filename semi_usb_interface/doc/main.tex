@@ -1,0 +1,77 @@
+%
+% main.tex
+%
+% Copyright © 2020 by Universidade Federal de Santa Catarina.
+%
+% Interstage Interface Panels of FloripaSat-2
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+% International License. To view a copy of this license,
+% visit http://creativecommons.org/licenses/by-sa/4.0/.
+%
+
+%
+% \brief: Main file.
+%
+% \author: Yan Castro de Azeredo <yan.ufsceel@gmail.com>
+%
+% \institution: Universidade Federal de Santa Catarina (UFSC)
+%
+% \version: 0.1.0
+%
+% \date: 14/07/20 (DD/MM/YY)
+%
+%  Credits to Gabriel Mariano Marcelino <gabriel.mm8@gmail.com> for the creation of SpaceLab Template
+%
+
+\documentclass[a4paper,12pt]{book}
+
+\usepackage{spacelab_book}
+
+\title{Documentation of Interstage Interface Panels}
+\author{SpaceLab}
+\date{\today}
+
+% File metadata
+\hypersetup
+{
+    pdfauthor   = {SpaceLab},
+    pdfsubject  = {\thetitle},
+    pdftitle    = {\thetitle},
+    pdfkeywords = {Nanosatellites, Cubesat interfaces, AIT}
+}
+
+\begin{document}
+
+    \pagenumbering{roman}
+    \setcounter{page}{1}
+
+    \input{header/titlepage}
+    \cleardoublepage
+    \input{header/authorpage}
+    \cleardoublepage
+
+    \listoffigures
+    \addcontentsline{toc}{chapter}{List of Figures}
+
+    \listoftables
+    \addcontentsline{toc}{chapter}{Lista of Tables}
+
+    \printnomenclature
+    \addcontentsline{toc}{chapter}{Nomenclature}
+
+    \tableofcontents
+    \cleardoublepage
+    
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+
+    \input{chapters/introduction}
+    \input{chapters/system_overview}
+    \input{chapters/hardware}
+    \input{chapters/requirements}
+    \input{chapters/mounting_instructions}
+    \input{chapters/usage_instructions}
+    \input{chapters/references}
+
+\end{document}
