@@ -41,8 +41,8 @@ IIP is composed of 3 pcbs with the main components:
 ### Nº1 board (1_iip_charge):
 
 <p align="center">
-	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/semi_usb_interface/doc/figures/IIP_semiUSB_N1_charge_top_print.png">
-	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/semi_usb_interface/doc/figures/IIP_semiUSB_N1_charge_bottom_print.png">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/IIP_semiUSB_N1_charge_top_print.png">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/IIP_semiUSB_N1_charge_bottom_print.png">
 </p>
 
 * Two 7x2 position pin headers for JTAG;
@@ -54,8 +54,8 @@ IIP is composed of 3 pcbs with the main components:
 ### Nº2 board (2_iip_rbf):
 
 <p align="center">
-	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/semi_usb_interface/doc/figures/IIP_semiUSB_N2_RBF_top_print.png">
-	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/semi_usb_interface/doc/figures/IIP_semiUSB_N2_RBF_bottom_print.png">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/IIP_semiUSB_N2_RBF_top_print.png">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/IIP_semiUSB_N2_RBF_bottom_print.png">
 </p>
 
 * Two 7x2 position Pin Headers for JTAG;
@@ -67,8 +67,8 @@ IIP is composed of 3 pcbs with the main components:
 ### Nº3 board (3_IIP_QuadUART):
 
 <p align="center">
-	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/semi_usb_interface/doc/figures/IIP_semiUSB_N3_QuadUART_top_print.png">
-	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/semi_usb_interface/doc/figures/IIP_semiUSB_N3_QuadUART_bottom_print.PNG">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/IIP_semiUSB_N3_QuadUART_top_print.png">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/IIP_semiUSB_N3_QuadUART_bottom_print.PNG">
 </p>
 
 * One FT4232HL-REEL IC for four quad channel USB to UART conversion;
@@ -78,7 +78,7 @@ IIP is composed of 3 pcbs with the main components:
 ## Hardware architecture diagram
 
 <p align="center">
-<img src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/semi_usb_interface/doc/figures/IIP_SemiUSB_BlockDiagram.png">
+<img src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/IIP_SemiUSB_BlockDiagram.png">
 </p>
 
 ## Development

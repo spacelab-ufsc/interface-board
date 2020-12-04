@@ -37,7 +37,7 @@
 </p>
 
 <p align="center">
-    <img src="https://github.com/spacelab-ufsc/flatsat-platform/blob/documentation/doc/figures/iip_fullset.png">
+    <img src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_fullset.png">
 </p>
 
 ## Overview
