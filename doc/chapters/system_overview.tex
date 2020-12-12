@@ -3,7 +3,7 @@
 %
 % Copyright © 2020 by Universidade Federal de Santa Catarina.
 %
-% Interstage Interface Panels of FloripaSat-2
+% Interstage Interface Panels (IIP)
 %
 % This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 % International License. To view a copy of this license,
@@ -13,79 +13,42 @@
 %
 % \brief: System overview chapter.
 %
-% \author: Yan Castro de Azeredo <yan.ufsceel@gmail.com>
+% \author: Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
 %
 % \institution: Universidade Federal de Santa Catarina (UFSC)
 %
-% \version: 0.1.0
+% \version: 0.1.1
 %
 % \date: 14/07/20 (DD/MM/YY)
 %
-%  Credits to Gabriel Mariano Marcelino <gabriel.mm8@gmail.com> for the creation of the SpaceLab Template
+% Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
 %
 
-\chapter{System Overview} \label{ch:system_overview}
+\chapter{System Overview} \label{ch:system-overview}
 
 \section{Block diagram}
 
+On figure \ref{fig:block-diagram} is displayed the full system block diagram with external devices such as the MSP-FET and a personal computer (PC) during normal usage of IIP. Up to four cubesat modules can be acessed from its interfaces, been though the pin headers or the USB port. For a specific project, the core modules (EPS, OBDH and TTC) and a optional payload are already represented with their respective interconections. These connections are done internaly with PicoBlade connectors, which are compatible with SpaceLab's modules. 
+
 \begin{figure}[!ht]
     \begin{center}
-        \includegraphics[width=0.8\textwidth]{figures/IIP_SemiUSB_BlockDiagram.png}
+        \includegraphics[width=\textwidth]{figures/iip_block_diagram.png}
+        \caption{IIP hardware block diagram.}
         \label{fig:block-diagram}
-        \caption{IIP Semi USB full system block diagram.}
     \end{center}
 \end{figure}
 
-\section{Board numeration}
+\section{Board numeration} %\Label{ssec:board-numeration}
 
-Since the IIP is divided up to 3 boards, a numeration was designed for better refering each PCB.
-The numeration followed the criteria of the mounting sides determined by the carthesian coordinates
-followed by the CubeSat's modules and Fit Check on the P-POD. Starting the numeration N1 from the
-refereced -X plane front of the nanosatellite the other boards are classified clock-wise.
-
-
-\subsection{Semi USB}
-
-Image A
-(full board assembly image) 
+Since the IIP is divided up to 3 boards, a numeration was adopted for better refering each PCB on this document. The numeration followed the criteria of the mounting sides determined by the carthesian coordinates of a Poly Picosatellite Orbital Deployer (P-POD) \cite{p-pod-user-guide}. Starting the numeration "Nº1" from the refereced -X plane, the other boards are classified clock-wise that can be found showed on figure \ref{fig:iip-numeration}, each labeled axis can be better seen on figure \ref{fig:iip-all-boards-top-bottom}. Details about the dimensions and mouting on a 2U structure can be read in the assembly chapter \ref{ch:board-assembly}.
 
 \begin{figure}[!ht]
-\centering
-\begin{subfigure}[b]{0.65\linewidth}
-    \includegraphics[width=\linewidth]{figures/IIP_semiUSB_N1_charge_top_print.png}
-    \caption{Nº1 board top view.}
-  \end{subfigure}
-  \begin{subfigure}[b]{0.65\linewidth}
-    \includegraphics[width=\linewidth]{figures/IIP_semiUSB_N1_charge_bottom_print.png}
-    \caption{Nº1 board bottom view.}
-  \end{subfigure}
-\begin{subfigure}[b]{0.65\linewidth}
-    \includegraphics[width=\linewidth]{figures/IIP_semiUSB_N2_RBF_top_print.png}
-    \caption{Nº2 board top view.}
-  \end{subfigure}
-  \begin{subfigure}[b]{0.65\linewidth}
-    \includegraphics[width=\linewidth]{figures/IIP_semiUSB_N2_RBF_bottom_print.png}
-    \caption{Nº2 board bottom view.}
-  \end{subfigure}
-\begin{subfigure}[b]{0.65\linewidth}
-    \includegraphics[width=\linewidth]{figures/IIP_semiUSB_N3_QuadUART_top_print.png}
-    \caption{Nº2 board top view.}
-  \end{subfigure}
-  \begin{subfigure}[b]{0.65\linewidth}
-    \includegraphics[width=\linewidth]{figures/IIP_semiUSB_N3_QuadUART_bottom_print.png}
-    \caption{Nº2 board bottom view.}
-  \end{subfigure}
-    \caption{IIP Semi USB full set.}
-    \label{fig:IIP_Semi_USB_full_set}
+  \centering
+    \includegraphics[width=0.5\linewidth]{figures/iip_n1_perspective.png}
+    \caption{IIP Nº1 Board}
+    \includegraphics[width=0.5\linewidth]{figures/iip_n2_perspective.png}
+    \caption{IIP Nº2 Board}
+    \includegraphics[width=0.5\linewidth]{figures/iip_n3_perspective.png}
+    \caption{IIP Nº3 Board}
+    \label{fig:iip-numeration}
 \end{figure}
-
-\section{Mechanical dimensions}
-
-The dimensions for the mouting holes on the X and Y planes of the ISIS 2 CubeSat structure
-are different, for this reason IIP has two mechanical dimension standards.
-
-Image A
-(Mechanical dimensions for N1 and N3 boards mounted in the Y plane)
-
-Image B
-(Mechanical dimensions for N2 board)
