@@ -57,7 +57,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ODNNRWNV
+DocumentUniqueId=
 
 [Document2]
 DocumentPath=2_iip_rbf.SchDoc
@@ -91,10 +91,17 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+<<<<<<< Updated upstream:hardware/sources/2_iip_rbf.PrjPCB
 DocumentUniqueId=FAJDLYGH
 
 [Document4]
 DocumentPath=..\Libraries\iip.PcbLib
+=======
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=2_iip_rbf.PCBDwf
+>>>>>>> Stashed changes:semi_usb_interface/sources/2_iip_rbf.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -111,7 +118,11 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
+<<<<<<< Updated upstream:hardware/sources/2_iip_rbf.PrjPCB
 DocumentPath=..\Libraries\iip.SchLib
+=======
+DocumentPath=..\Libraries\iip.PcbLib
+>>>>>>> Stashed changes:semi_usb_interface/sources/2_iip_rbf.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -125,6 +136,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+<<<<<<< Updated upstream:hardware/sources/2_iip_rbf.PrjPCB
 DocumentUniqueId=UFGLWNFP
 
 [Document6]
@@ -163,6 +175,12 @@ DocumentUniqueId=
 
 [Document8]
 DocumentPath=..\outputs\camtastic\iip_rbf_camtastic.Cam
+=======
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=..\Libraries\iip.SchLib
+>>>>>>> Stashed changes:semi_usb_interface/sources/2_iip_rbf.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -178,6 +196,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+<<<<<<< Updated upstream:hardware/sources/2_iip_rbf.PrjPCB
 [GeneratedDocument1]
 DocumentPath=../\fabrication\2_iip_rbf.DRR
 DItemRevisionGUID=
@@ -514,6 +533,8 @@ DItemRevisionGUID=
 DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
+=======
+>>>>>>> Stashed changes:semi_usb_interface/sources/2_iip_rbf.PrjPCB
 [Parameter1]
 Name=DesignedBy
 Value=Yan Castro de Azeredo
@@ -1086,6 +1107,7 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+<<<<<<< Updated upstream:hardware/sources/2_iip_rbf.PrjPCB
 OutputType12=Ansoft Neutral
 OutputName12=Ansoft Neutral (AutoPCB)
 OutputDocumentPath12=
@@ -1116,6 +1138,8 @@ OutputName17=SiSoft (AutoPCB)
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
+=======
+>>>>>>> Stashed changes:semi_usb_interface/sources/2_iip_rbf.PrjPCB
 
 [OutputGroup10]
 Name=PostProcess Outputs

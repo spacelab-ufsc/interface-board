@@ -52,10 +52,14 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ODNNRWNV
+DocumentUniqueId=
 
 [Document2]
+<<<<<<< Updated upstream:hardware/sources/1_iip_charge.PrjPCB
 DocumentPath=1_IIP_Charge.SchDoc
+=======
+DocumentPath=1_iip_charge.SchDoc
+>>>>>>> Stashed changes:semi_usb_interface/sources/1_iip_charge.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,7 +76,11 @@ GenerateClassCluster=0
 DocumentUniqueId=JEWTGKTE
 
 [Document3]
+<<<<<<< Updated upstream:hardware/sources/1_iip_charge.PrjPCB
 DocumentPath=1_IIP_Charge.PcbDoc
+=======
+DocumentPath=1_iip_charge.PcbDoc
+>>>>>>> Stashed changes:semi_usb_interface/sources/1_iip_charge.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,7 +97,11 @@ GenerateClassCluster=0
 DocumentUniqueId=FAJDLYGH
 
 [Document4]
+<<<<<<< Updated upstream:hardware/sources/1_iip_charge.PrjPCB
 DocumentPath=..\Libraries\iip.PcbLib
+=======
+DocumentPath=1_iip_charge.PCBDwf
+>>>>>>> Stashed changes:semi_usb_interface/sources/1_iip_charge.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,7 +118,11 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
+<<<<<<< Updated upstream:hardware/sources/1_iip_charge.PrjPCB
 DocumentPath=..\Libraries\iip.SchLib
+=======
+DocumentPath=..\Libraries\iip.PcbLib
+>>>>>>> Stashed changes:semi_usb_interface/sources/1_iip_charge.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -120,6 +136,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+<<<<<<< Updated upstream:hardware/sources/1_iip_charge.PrjPCB
 DocumentUniqueId=UFGLWNFP
 
 [Document6]
@@ -158,6 +175,12 @@ DocumentUniqueId=
 
 [Document8]
 DocumentPath=..\outputs\camtastic\iip_charge_camtastic.Cam
+=======
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=..\Libraries\iip.SchLib
+>>>>>>> Stashed changes:semi_usb_interface/sources/1_iip_charge.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -173,6 +196,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+<<<<<<< Updated upstream:hardware/sources/1_iip_charge.PrjPCB
 [GeneratedDocument1]
 DocumentPath=../\fabrication\1_IIP_Charge.DRR
 DItemRevisionGUID=
@@ -423,7 +447,24 @@ DItemRevisionGUID=
 
 [GeneratedDocument63]
 DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\tools
+=======
+[Document7]
+DocumentPath=iip_outjob.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+>>>>>>> Stashed changes:semi_usb_interface/sources/1_iip_charge.PrjPCB
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Parameter1]
 Name=DesignedBy
@@ -977,6 +1018,7 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+<<<<<<< Updated upstream:hardware/sources/1_iip_charge.PrjPCB
 OutputType12=Ansoft Neutral
 OutputName12=Ansoft Neutral (AutoPCB)
 OutputDocumentPath12=
@@ -1007,6 +1049,8 @@ OutputName17=SiSoft (AutoPCB)
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
+=======
+>>>>>>> Stashed changes:semi_usb_interface/sources/1_iip_charge.PrjPCB
 
 [OutputGroup10]
 Name=PostProcess Outputs

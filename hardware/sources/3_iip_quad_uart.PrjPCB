@@ -52,7 +52,11 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+<<<<<<< Updated upstream:hardware/sources/3_iip_quad_uart.PrjPCB
 DocumentUniqueId=ODNNRWNV
+=======
+DocumentUniqueId=
+>>>>>>> Stashed changes:semi_usb_interface/sources/3_iip_quad_uart.PrjPCB
 
 [Document2]
 DocumentPath=3_iip_quad_uart.SchDoc
@@ -86,7 +90,11 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+<<<<<<< Updated upstream:hardware/sources/3_iip_quad_uart.PrjPCB
 DocumentUniqueId=ONJBDJKK
+=======
+DocumentUniqueId=
+>>>>>>> Stashed changes:semi_usb_interface/sources/3_iip_quad_uart.PrjPCB
 
 [Document4]
 DocumentPath=3_iip_quad_uart.PCBDwf
@@ -124,6 +132,7 @@ DocumentUniqueId=RNKVWLNM
 
 [Document6]
 DocumentPath=..\Libraries\iip.SchLib
+<<<<<<< Updated upstream:hardware/sources/3_iip_quad_uart.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -158,6 +167,8 @@ DocumentUniqueId=
 
 [Document8]
 DocumentPath=..\outputs\camtastic\iip_quad_uart_camtastic.Cam
+=======
+>>>>>>> Stashed changes:semi_usb_interface/sources/3_iip_quad_uart.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -173,6 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+<<<<<<< Updated upstream:hardware/sources/3_iip_quad_uart.PrjPCB
 [ProjectVariant1]
 UniqueID=4B2E547E-4D47-44CA-95CF-6DF9B971EBCE
 Description=dnp_components
@@ -434,6 +446,8 @@ DItemRevisionGUID=
 DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
+=======
+>>>>>>> Stashed changes:semi_usb_interface/sources/3_iip_quad_uart.PrjPCB
 [Parameter1]
 Name=DesignedBy
 Value=Yan Castro de Azeredo
@@ -986,6 +1000,7 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+<<<<<<< Updated upstream:hardware/sources/3_iip_quad_uart.PrjPCB
 OutputType12=Ansoft Neutral
 OutputName12=Ansoft Neutral (AutoPCB)
 OutputDocumentPath12=
@@ -1016,6 +1031,8 @@ OutputName17=SiSoft (AutoPCB)
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
+=======
+>>>>>>> Stashed changes:semi_usb_interface/sources/3_iip_quad_uart.PrjPCB
 
 [OutputGroup10]
 Name=PostProcess Outputs
