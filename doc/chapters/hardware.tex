@@ -3,7 +3,7 @@
 %
 % Copyright © 2020 by Universidade Federal de Santa Catarina.
 %
-% Interstage Interface Panels of FloripaSat-2
+% Interstage Interface Panels (IIP)
 %
 % This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 % International License. To view a copy of this license,
@@ -13,46 +13,132 @@
 %
 % \brief: Hardware chapter.
 %
-% \author: Yan Castro de Azeredo <yan.ufsceel@gmail.com>
+% \author: Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
 %
 % \institution: Universidade Federal de Santa Catarina (UFSC)
 %
-% \version: 0.1.0
+% \version: 0.1.1
 %
 % \date: 14/07/20 (DD/MM/YY)
 %
-%  Credits to Gabriel Mariano Marcelino <gabriel.mm8@gmail.com> for the creation of the SpaceLab Template
+% Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
 %
 
 \chapter{Hardware} \label{ch:hardware}
 
-\section{External connectors}
+IIP was designed ocuppy less space when mouted vertically on the sides of a 2U cubesat structure and to be low cost, while providing all the minimal features for AIT. In the following sections, the hardware design and interfaces are described in detail. On figure \ref{fig:iip-all-boards-top-bottom} is displayed top and bottom PCB prints of the three boards.
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.5\linewidth]{figures/iip_n1_top.png}
+    \caption{IIP Nº1 board top view.}
+    \includegraphics[width=0.5\linewidth]{figures/iip_n1_bottom.png}
+    \caption{IIP Nº1 board top view}
+    \includegraphics[width=0.5\linewidth]{figures/iip_n2_top.png}
+    \caption{IIP Nº2 board top view}
+    \includegraphics[width=0.5\linewidth]{figures/iip_n2_bottom.png}
+    \caption{IIP Nº2 board bottom view.}
+    \includegraphics[width=0.5\linewidth]{figures/iip_n3_top.png}
+    \caption{IIP Nº3 Board.}
+    \includegraphics[width=0.5\linewidth]{figures/iip_n3_bottom.png}
+    \caption{IIP Nº3 Board.}
+    \label{fig:iip-all-boards-top-bottom}
+\end{figure}
+
+\section{Hardware design}
+
+To be low cost, IIP has the default two layer stackup, HASL finish, 0.3mm minimal hole size, 2.54mm miminal track width and no controled impedance. While for fast USB communication it is recommanded a controled impedance of 90 ohms, as exposed in USB Hardware Design Guidelines for FTDI ICs \cite{ftdi-usb-hardware-guidelines}, IIP Nº3 board is not meant to operate with high speed signals. The hightest data rates for UART log messages for debbuging purposes are expected to be 115200 bps, this data rate is defined for SpaceLab's core modules. Although not a serious concern, the tracks used for the USB mini B connector to the FT4232H IC were made the shortest possible and most of the guidelines were followed.
+
+Components size and positioning were decided for conforming with the CubeSat 2U standard of maximum connector height on the side of the structure \cite{p-pod-user-guide} and to a specific project scenario using SpaceLab's core modules for the GOLDS-UFSC mission \cite{golds-ufsc}. Details of all mechanical dimensions can be viewed in the assembly chapter \ref{ch:board-assembly}.
+
+\section{External and internal connectors}
+
+In this section all external and internal connectors counterparts are exposed in detail.
+
+\subsection{JTAG/UART pin headers}
+
+There are four 14 pin headers (7 positions and 2 rows) on IIP for JTAG and UART usage on IIP, two are present in Nº1 board and the other two in Nº2 board, they can be seem in figures \ref{fig:iip-n1-top} \ref{fig:iip-n2-top} respectively. These headers were choosen to be used with MSP-FET tool and its standard cable connector. Their pionout is showed on table ... %\ref{}
+.
 
 
-\section{Interfaces}
+(insert table here)
 
-The internal interfaces are the EPS, OBDH, TTC and "Payload 1" made by 6 pin Picoblade headers
-positioned inside the 2U structure.
+\begin{figure}[!ht]
+\centering
+    \includegraphics[width=0.7\linewidth]{figures/jtag_n1_and_n2_pin_headers.png}
+    \caption{IIP Nº1 JTAG pin headers.}
+    \includegraphics[width=0.7\linewidth]{figures/jtag_n3_and_n4_pin_headers.png}
+    \caption{IIP Nº2 JTAG pin headers.}
+	\label{fig:iip-jtag-pin-headers}
+\end{figure}
 
-(insert image here)
+Internally these pin headers are interfaced via picoblades to be connected to the four modules inside the cubesat. As can be seen in the block diagram figure \ref{fig:block-diagram} present on the overview chapter, each one of this picoblades interfaces in assigned with a specific module. Below there is a image showing these picoblades, also labeled on the silkscreen of the boards.
 
-The pin assigment of each Picoblade is mirroed to match the correponding mating header on each module.
+\begin{figure}[!ht]
+\centering
+    \includegraphics[width=0.7\linewidth]{figures/jtag_n1_and_n2_picoblades.png}
+    \caption{IIP Nº1 JTAG PicoBlades.}
+    \includegraphics[width=0.7\linewidth]{figures/jtag_n3_and_n4_picoblades.png}
+    \caption{IIP Nº2 JTAG PicoBlades.}
+	\label{fig:iip-jtag-picoblades}
+\end{figure}
 
-(insert image here)
+\subsection{Charge header}
 
-Specially for the EPS, two 4 pin Picoblades are used for interfacing the Charge and RBF headers 
-on the module.
+On board Nº1 there is a JST XH 2 pin header for charging batteries of the CubeSat. The component can suport up to 3000mA of current, but in practice it will be used with less than 1500mA. One of the reasons for this limitation of current to be used is because of internal 4 pin picoblade counterpart that is used to connect to the EPS module. The header provides a detent lock for fastening and avoid mistankenly reverse connection.
 
-(insert image here)
+\begin{figure}[!ht]
+\centering
+    \includegraphics[width=0.4\linewidth]{figures/charge_header.png}
+    \caption{IIP Nº1 charge header.}
+	\label{fig:iip-charge-header}
+\end{figure}
 
-\section{PCB layout}
+\begin{figure}[!ht]
+\centering
+    \includegraphics[width=0.4\linewidth]{figures/charge_picoblade.png}
+    \caption{IIP Nº1 charge picoblade.}
+	\label{fig:iip-charge-picoblade}
+\end{figure}
 
-The PCB design uses two layer configuration with two ground planes for mechanical and thermal
-balancing. 
+\subsection{RBF pin header}
 
-Direct contact on power polygons and GND connections was opted for better current
-flow and lesser heating on the copper traces.
+The Remove Before Flight pin header is located on board Nº2. The choice of its location was according to... 
+% \cite{} %
+, the presence of a PC104 adapter board 
+% \cite{} % 
+and the mouting of another coling interface 
+% \cite{} % 
+on the -X side of the 2U cubesat structure. The internal header counterpart is a 4 pin picoblade to be connected to the EPS module.
 
-Three fiducials are placed in each board variants for component machinery fiting if needed. 
-While the boards that don't have many many SMD components like N1 and N2, the fiducials were
-also placed for flexibilty in PCB manufacturing.
+\begin{figure}[!ht]
+\centering
+    \includegraphics[width=0.2\linewidth]{figures/rbf_pin_header.png}
+    \caption{IIP Nº2 RBF pin header.}
+	\label{fig:iip-rbf-pin-header}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+    \includegraphics[width=0.4\linewidth]{figures/rbf_picoblade.png}
+    \caption{IIP Nº2 RBF picoblade.}
+	\label{fig:iip-rbf-picoblade}
+\end{figure}
+
+\subsection{Mini USB B port}
+
+On board Nº3 there is a mini USB B port to be used for UART debbuging (see pcb top image \ref{fip:iip-n3-top}), this is done though the FT4323H and its subcircuitry located on the bottom side of the board (sse pcb bottom image \ref{fig:iip-n3-bottom}. A pad is left unsoldered for a zero-ohm resistor for a DC path or capacitor for a high-frequency path between shield and signal ground, see chapter assembly \ref{ssec:dnp-components} for more details.
+
+\begin{figure}[!ht]
+\centering
+    \includegraphics[width=0.2\linewidth]{figures/usb_mini_b_port.png}
+    \caption{IIP Nº3 USB mini B port.}
+	\label{fig:iip-usb-port}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+    \includegraphics[width=0.4\linewidth]{figures/usb_ft4232h_circuitry.png}
+    \caption{IIP Nº3 USB auxiliary circuitry.}
+	\label{fig:iip-usb-circuitry}
+\end{figure}
