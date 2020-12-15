@@ -49,7 +49,7 @@ IIP is designed to be mouted vertically on the sides of a 2U CubeSat structure a
 
 To be low cost, IIP has the default two layer stackup, HASL finish, 0.3mm minimal hole size, 2.54mm miminal track width and no controled impedance. While for fast USB communication it is recommended a controled impedance of 90 ohms, as exposed in USB Hardware Design Guidelines for FTDI ICs \cite{ftdi-usb-hardware-guidelines}, IIP Nº3 board is not meant to operate with high speed signals. The hightest data rates for UART log messages for debbuging purposes are expected to be 115200 bps, this data rate is defined for SpaceLab's core modules. Although not a serious concern, the tracks used for the USB mini B connector to the FT4232H IC were made the shortest possible and most of the guidelines of FTDI were followed.
 
-Components size and positioning were decided for conforming with the CubeSat 2U standard of maximum connector height on the sides of the structure \cite{p-pod-user-guide} and to a specific project scenario using SpaceLab's core modules for the GOLDS-UFSC mission \cite{golds-ufsc}. Details of all mechanical dimensions can be viewed in the assembly chapter \ref{ch:board-assembly}.
+Components size and positioning were decided for conforming with the CubeSat 2U standard of maximum connector height on the sides of the P-POD structure \cite{p-pod-user-guide} and to a specific project scenario using SpaceLab's core modules for the GOLDS-UFSC mission \cite{golds-ufsc}. Details of all mechanical dimensions can be viewed in the assembly chapter \ref{ch:board-assembly}.
 
 \section{External and internal connectors}
 
@@ -102,11 +102,11 @@ Internally these pin headers are interfaced via PicoBlades to be connected to th
 
 \subsection{Charge header}
 
-On board Nº1 there is a JST XH 2 pin header for charging batteries of the CubeSat. The component can suport up to 3000mA of current, but in practice it will be used with less than 1500mA. One of the reasons for this limitation of current to be used is because of internal 4 pin picoblade counterpart that is used to connect to the EPS module. The header provides a detent lock for fastening and avoid mistankenly reverse connection.
+On board Nº1 there is a JST XH 2 pin header for charging batteries of the CubeSat, it can be seen in figure \ref{fig:iip-charge-header}. The component can suport up to 3000mA of current, but in practice it will be used with less than 1500mA. The internal 4 pin PicoBlade connector showed in figure \ref{fig:iip-charge-picoblade} is to be connected to the EPS module to make the interconection for the JST header. The charge header also provides a detent lock for fastening and avoid mistankenly reverse connection.
 
 \begin{figure}[!ht]
 \centering
-    \includegraphics[width=0.4\linewidth]{figures/charge_header.png}
+    \includegraphics[width=0.2\linewidth]{figures/charge_header.png}
     \caption{IIP Nº1 charge header.}
 	\label{fig:iip-charge-header}
 \end{figure}
@@ -114,19 +114,13 @@ On board Nº1 there is a JST XH 2 pin header for charging batteries of the CubeS
 \begin{figure}[!ht]
 \centering
     \includegraphics[width=0.4\linewidth]{figures/charge_picoblade.png}
-    \caption{IIP Nº1 charge picoblade.}
+    \caption{IIP Nº1 charge PicoBlade.}
 	\label{fig:iip-charge-picoblade}
 \end{figure}
 
 \subsection{RBF pin header}
 
-The Remove Before Flight pin header is located on board Nº2. The choice of its location was according to... 
-% \cite{} %
-, the presence of a PC104 adapter board 
-% \cite{} % 
-and the mouting of another coling interface 
-% \cite{} % 
-on the -X side of the 2U cubesat structure. The internal header counterpart is a 4 pin picoblade to be connected to the EPS module.
+The Remove Before Flight pin header is located on board Nº2, see figure \ref{fig:iip-rbf-pin-header}. The choice of its location was according to the CubeSat Design Specification from Cal Poly SLO \cite{cubesat-design-specification} that required the RBF pin to be located on the X plane of the P-POD. This ensures that the CubeSat subsystems will be powered off on test phase using a simple jumper wire conecting the pins, even with kill-swithes already enabled to do this fuctionality by been pressed againts the spring mechanism. The interconection between the header and the EPS module is done by a internal 4 pin PicoBlade, showed in figure \ref{fig:iip-rbf-picoblade}.
 
 \begin{figure}[!ht]
 \centering
@@ -138,7 +132,7 @@ on the -X side of the 2U cubesat structure. The internal header counterpart is a
 \begin{figure}[!ht]
 \centering
     \includegraphics[width=0.4\linewidth]{figures/rbf_picoblade.png}
-    \caption{IIP Nº2 RBF picoblade.}
+    \caption{IIP Nº2 RBF PicoBlade.}
 	\label{fig:iip-rbf-picoblade}
 \end{figure}
 
