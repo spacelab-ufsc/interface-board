@@ -1,57 +1,68 @@
-# Interstage Interface Panels (IIP)
+<h1 align="center">
+	Interstage Interface Panels
+	<br>
+</h1>
 
-This repository contains the hardware project of the external interface to be used in SpaceLab's second mission envolving a 2U CubeSat.
-
-## Summary
-
-IIP are vertical mounted PCBs designed to give external access to the modules inside of a 2U CubeSat during final assembly, integration and testing. IIP is composed by 3 different boards, the complete set allows for the nanosatellite to be charged, programed and debugged.
-
-Currently the project has finished the "Semi USB" variant, which needs the use of the [MSP-FET
-](https://www.ti.com/tool/MSP-FET#2) for JTAG programming and debbuging up to 4 modules. The "Full USB" variant doesn't have yet a date to begin development. 
-
-## Hardware features
-
-### Semi USB Variant
-
-#### Full system block diagram
+<h4 align="center">Interface Panels designed and developed by SpaceLab.</h4>
 
 <p align="center">
-<img src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/semi_usb_interface/doc/figures/IIP_SemiUSB_BlockDiagram.png">
+    <a href="">
+		<img src="https://img.shields.io/badge/status-development-green?style=for-the-badge">
+	</a>
+    <a href="">
+		<img src="https://img.shields.io/badge/version-1.0-blue?style=for-the-badge">
+	</a>
+	<a href="">
+		<img src="https://img.shields.io/badge/CAD%20tool-altium%20v19.2-9cf?style=for-the-badge">
+	</a>
+	<a href="">
+		<img src="https://img.shields.io/badge/license-CERN-red?style=for-the-badge">
+	</a>
+	<!---
+    <a href="https://github.com/spacelab-ufsc/obdh2/tree/dev/doc/build">
+		<img src="https://img.shields.io/badge/for%20more-here-lightgray?style=for-the-badge">
+	</a>
+    --->
 </p>
 
-#### Nº1 Board (1_IIP_Charge):
+<p align="center">
+  	<a href="#overview">Overview</a> •
+  	<a href="#repository-organization">Repository Organizarion</a> •
+  	<a href="#license">License</a> •
+  	<a href="#releases">Releases</a> •
+  	<!---
+      <a href="#acknowledgements">Acknowledgements</a> •
+    --->
+  	<a href="#notes">Notes</a>
+</p>
 
-* Two [7x2 position pin headers]() for JTAG;
-* One [JST 2 position header]() for charging batteries;
-* Two [6 pin PicoBlade]() for internal modules connection;
-* One [5 pin PicoBlade]() for interfacing Nº1 Board to FT4232H present on Nº3 board;
-* One [4 pin PicoBlade]() for battery charge connection to EPS module;
+<p align="center">
+    <img src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_fullset.PNG">
+</p>
 
-#### Nº2 Board (2_IIP_RBF):
+## Overview
 
-* Two [7x2 position Pin Headers]() for JTAG;
-* One [2x1 position pin header]() for Remove Before Flight switch;
-* Two [6 pin PicoBlade]() for internal modules connection;
-* One [5 pin PicoBlade]() for interfacing Nº2 Board to FT4232H present on Nº3 board;
-* One [4 pin PicoBlade]() for RBF switch connection to EPS module;
+Interstage Interface Panels (IIP) are vertical mounted PCBs designed to give external access to the modules inside of a 2U CubeSat during final assembly, integration and testing. IIP is composed by 3 different boards, the complete set allows for the nanosatellite to be charged, programed and debugged.
 
-#### Nº3 Board (3_IIP_QuadUART):
-
-* One [FT4232HL-REEL]() IC for four quad channel USB to UART conversion;
-* One [Vertical mini B USB 2.0 port]() for quad channel UART debbuging;
-* Two [5 pin PicoBlade]() for interfacing boards Nº1 and Nº2;
-
-## Software used
-
-This hardware project was done using Altium Designer.
-
-## References
-
-* [NanoUtil Interstage - GOMspace](https://gomspace.com/UserFiles/Subsystems/datasheet/gs-ds-nanoutil-interstage-12.pdf)
-* [Quad Serial project from Felipe Navarro](https://github.com/PY1CX/Quad-Serial)
-* [FT4232H QUAD HIGH SPEED USB TO MULTIPURPOSE UART/MPSSE IC Datasheet Version 2.6](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf)
-
+## Repository Organization
+	- doc: Technical IIP documentation.
+	- hardware: IIP hardware project (sources and outputs).
 
 ## License
 
-This project is licensed under GPL license, version 3.
+This project is licensed under CERN Open Hardware License (version 2) and Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0).
+
+## Releases
+
+#### v1.0
+	- Initial finished version of the hardware.
+	- Initial documentation.
+
+<!---
+## Acknowledgements
+
+--->
+
+## Notes
+
+More info about the SpaceLab: [GitHub](https://github.com/spacelab-ufsc/spacelab) and [Website](https://spacelab.ufsc.br/en/home/).
