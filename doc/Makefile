@@ -1,5 +1,5 @@
 SRC=main
-TARGET=IIP_doc
+TARGET=slb-iip-doc-v1.0
 
 ifndef BUILD_DIR
 	BUILD_DIR=build
