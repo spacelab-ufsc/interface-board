@@ -1,5 +1,5 @@
 %
-% mounting_instructions.tex
+% board_assembly.tex
 %
 % Copyright © 2020 by Universidade Federal de Santa Catarina.
 %
@@ -11,17 +11,29 @@
 %
 
 %
-% \brief: Mouting instructions chapter.
+% \brief: Assembly instructions chapter.
 %
-% \author: Yan Castro de Azeredo <yan.ufsceel@gmail.com>
+% \author: Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
 %
 % \institution: Universidade Federal de Santa Catarina (UFSC)
 %
-% \version: 0.1.0
+% \version: 0.1.1
 %
 % \date: 14/07/20 (DD/MM/YY)
 %
-%  Credits to Gabriel Mariano Marcelino <gabriel.mm8@gmail.com> for the creation of the SpaceLab Template
+% Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
 %
 
-\chapter{Mouting Instructions} \label{ch:mouting_instructions}
+\chapter{Board Assembly} \label{ch:board-assembly}
+
+IIP has the Bill of Material (BOM) for each board avalaible at its GitHub repository in excel spreeadsheets format. Also the PCBs can be assembled by a Pick-and-place machine using the .txt file found on the hardware/fabrication folder if desired, fiducials are placed on each board to make this possible. All components are to be fitted on the IIP boards, the only exception is the one describe below. The draftsman PDF documents of each board shows all the components positioning, they can be found here \cite{iip-draftsman}.
+
+\section{DNP component}
+
+There is only one "do not place" (DNP) component present in the Nº3 board, it is the labeled R4 pad with 0805 size (2012 metric) available for soldering the mini USB type B chassi to GND for Electromagnetic compatibility (EMC), see \ref{fig:iip-usb-port}. This can be done soldering a zero-ohm resistor for a DC path or capacitor for a high-frequency path between shield and signal ground, see section 2.2.2 of the document \cite{ftdi-usb-hardware-guidelines}.
+
+\section{Integration}
+
+IIP board Nº1 is to be mouted vertically inside the 2U strucuture on the -X referenced plane. IIP board Nº3 is to be mouted in the same plane of reference but in the other side, that is the +X plane. IIP board Nº2 is to be mouted on the -Y plane. The integration order of the interface panels follows their numeration, this means the first PCB to be integrated is Nº1, than Nº2 and at last Nº3. The internal PicoBlade connections to the modules must be done before proceding to mount the other panels.
+
+The last cables to be connected are between Nº3 (figure \ref{fig:iip-n3-picoblades}) and Nº1 and Nº2 (figures \ref{fig:iip-n1-uart-picoblade} and \ref{fig:iip-n2-uart-picoblade}) for the labeled "UART" PicoBlades. The only interface of IIP that can be acessed when the 2U satellite is already integrated to the P-POD is the Nº2 board which is located the RBF pin and JTAGs 3 and 4.
