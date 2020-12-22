@@ -11,17 +11,17 @@
 %
 
 %
-% \brief: Usage instructions chapter.
+% \brief Usage instructions chapter.
 %
-% \author: Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
+% \author Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
 %
-% \institution: Universidade Federal de Santa Catarina (UFSC)
+% \institution Universidade Federal de Santa Catarina (UFSC)
 %
-% \version: 0.1.0
+% \version 1.0.0
 %
-% \date: 14/07/20 (DD/MM/YY)
+% \date 14/07/20 (DD/MM/YY)
 %
-% Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
+% \note Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
 %
 
 \chapter{Usage Instructions} \label{ch:usage_instructions}
@@ -30,12 +30,12 @@ IIP interfaces can be used depending on the project if it's followed the hardwar
 
 \section{Charging batteries}
 
-To charge the batteries it will be needed a cable compatible with the JST XH header. The housing is a XHP-2 receptacle, the jumper lead socket to socket to be used can be ASXHSXH22K305, or any other with AWG \#30 to \#22. The only constraint is that the current cannot excel 2000mA, as mentioned in the hardware chapter the PicoBlades connectors used to interconnect the JST header to the modules only support 1000mA per pin. For safe usage it is recommend to use the header with a 1500mA maximum charge current.
+To charge the batteries it will be needed a cable compatible with the JST XH header. The compatible housing is a XHP-2 receptacle, the jumper lead socket to socket to be used can be ASXHSXH22K305, or any other with AWG \#30 to \#22. The only constraint is that the current cannot excel 2000mA, because the PicoBlades connectors used to interconnect the JST header to the modules only support 1000mA per pin. For safe usage it is recommended to use the header with a 1500mA maximum charge current.
 
 \section{Programming and Debugging Modules Though JTAG}
 
-Following the pinout of the pin headers showed at \ref{tab:jtag-headers-pinout} the JTAG interface can be used acoording to any debugger and programmer tool and cable assembly with dual row 14 pin 2.54mm pitch. If more than one pin header is to be used simultaneously in the same panel, the length of the cable assemblies housing must be considered to avoid mechancial incopability. For IIP it was tested on a EDA tool using a 61201423021 14 Position Rectangular Receptacle Connector from Würth Elektronik, garanting the use of the default cable of the MSP-FET in this situation.
+Following the pinout of the pin headers showed at \ref{tab:jtag-headers-pinout} the JTAG interface can be used according to any debugger and programmer tool and cable assembly with dual row 14 pin 2.54mm pitch. If more than one pin header is to be used simultaneously in the same panel, the length of the cable assemblies housing must be considered to avoid mechancial incopability. For IIP it was tested on a EDA tool using a 61201423021 14 Position Rectangular Receptacle Connector from Würth Elektronik, garanting the use of the default cable of the MSP-FET in this situation.
 
 \section{Debugging though USB}
 
-Connecting a type A to mini type B USB cable to a PC and the USB port present on IIP Nº3 the four USB to UART channels should be ready to be used. Note that the computer will recognize the port as four devices. The IIP Nº3 doesn't have a EEPROM, so it will be already configured to operate as default serial ports. The FT4232H will have the built-in default VID (0403) and PID (6011).
+Connecting a type A to mini type B USB cable to a PC and the USB port present on IIP Nº3, the four USB to UART channels should be ready to be used. Note that the computer will recognize the port as four different devices. The IIP Nº3 doesn't have an EEPROM, so it will be already configured to operate as default serial ports. The FT4232H will have the built-in default VID (0403) and PID (6011).

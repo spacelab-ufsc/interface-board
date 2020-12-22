@@ -3,7 +3,7 @@
 %
 % Copyright © 2020 by Universidade Federal de Santa Catarina.
 %
-% Interstage Interface Panels documentation
+% Documentation of Interstage Interface Panels
 %
 % This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 % International License. To view a copy of this license,
@@ -11,17 +11,17 @@
 %
 
 %
-% \brief: Hardware chapter.
+% \brief Hardware chapter.
 %
-% \author: Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
+% \author Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
 %
-% \institution: Universidade Federal de Santa Catarina (UFSC)
+% \institution Universidade Federal de Santa Catarina (UFSC)
 %
-% \version: 0.1.2
+% \version 1.0.0
 %
-% \date: 14/07/20 (DD/MM/YY)
+% \date 14/07/20 (DD/MM/YY)
 %
-% Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
+% \note Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
 %
 
 \chapter{Hardware} \label{ch:hardware}
@@ -103,7 +103,7 @@ Internally these pin headers are interfaced via PicoBlades to be connected to th
 
 \subsection{Charge Header}
 
-On board Nº1 there is a JST XH 2 position header [B2B-XH-A-M(LF)(SN)] for charging batteries of the CubeSat, it can be seen in figure \ref{fig:iip-charge-header}. The component can suport up to 3000mA of current, but in practice it will be used with less than 1500mA. The internal 4 pin PicoBlade connector showed in figure \ref{fig:iip-charge-picoblade} is to be connected to the EPS module to make the interconection for the JST header. The charge header also provides a detent lock for fastening and avoid mistankenly reverse connection.
+On board Nº1 there is a JST XH 2 position header [B2B-XH-A-M(LF)(SN)] for charging batteries of the CubeSat, it can be seen in figure \ref{fig:iip-charge-header}. The component can suport up to 3000mA of current, but in practice it will be used with less than 1500mA. The internal 4 pin PicoBlade connector showed in figure \ref{fig:iip-charge-picoblade} is to be connected to the EPS module to make the interconnection for the JST header. The charge header also provides a detent lock for fastening and avoid mistankenly reverse connection.
 
 \begin{figure}[!ht]
 \centering
@@ -121,7 +121,7 @@ On board Nº1 there is a JST XH 2 position header [B2B-XH-A-M(LF)(SN)] for charg
 
 \subsection{RBF Pin Header}
 
-The Remove Before Flight pin header is located on board Nº2, see figure \ref{fig:iip-rbf-pin-header}. The choice of its location was according to the CubeSat Design Specification from Cal Poly SLO \cite{cubesat-design-specification} that required the RBF pin to be located on the X plane of the P-POD. This ensures that the CubeSat subsystems will be powered off on test phase using a simple jumper wire conecting the pins, even with kill-swithes already enabled to do this fuctionality by been pressed againts the spring mechanism. The interconection between the header and the EPS module is done by a internal 4 pin PicoBlade, showed in figure \ref{fig:iip-rbf-picoblade}.
+The Remove Before Flight pin header is located on board Nº2, see figure \ref{fig:iip-rbf-pin-header}. The choice of its location was according to the CubeSat Design Specification from Cal Poly SLO \cite{cubesat-design-specification} that required the RBF pin to be located on the X plane of the P-POD. This ensures that the CubeSat subsystems will be powered off on test phase using a simple jumper wire conecting the pins, even with kill-swithes already enabled to do this fuctionality by been pressed againts the spring mechanism. The interconnection between the header and the EPS module is done by a internal 4 pin PicoBlade, showed in figure \ref{fig:iip-rbf-picoblade}.
 
 \begin{figure}[!ht]
 \centering
@@ -141,7 +141,7 @@ The Remove Before Flight pin header is located on board Nº2, see figure \ref{fi
 
 On Nº3 board there is a vertical mini USB type B 2.0 port (651005136421) to be used for UART debbuging, the connector is seen on figure \ref{fig:iip-usb-port}. This is done though the FT4232HL-REEL IC and its subcircuitry located on the bottom side of the PCB, a better vision is showed on figure \ref{fig:iip-usb-circuitry}. The circuit is self powered by the USB cable, not requiring any external power supply.
 
-There are two internal 5 pin PicoBlade connectors that connects with boards Nº1 and Nº2 to acquire the UART log data from the modules, these components are showed on figure \ref{fig:iip-n3-picoblades}. The other Picoblades that makes this interconection betweem interface panels are seen in figures \ref{fig:iip-n1-uart-picoblade} and \ref{fig:iip-n2-uart-picoblade}, for Nº1 and Nº2 boards respectively.
+There are two internal 5 pin PicoBlade connectors that connects with boards Nº1 and Nº2 to acquire the UART log data from the modules, these components are showed on figure \ref{fig:iip-n3-picoblades}. The other Picoblades that makes this interconnection between interface panels are seen in figures \ref{fig:iip-n1-uart-picoblade} and \ref{fig:iip-n2-uart-picoblade}, for Nº1 and Nº2 boards respectively.
 
 \begin{figure}[!ht]
 \centering
@@ -177,11 +177,11 @@ There are two internal 5 pin PicoBlade connectors that connects with boards Nº1
 
 \section{FT4232H IC}
 
-For UART to USB conversion the FT4232HL-REEL IC from FTDI \cite{ftdi-ft4232h-datasheet} was chossen for enabaling the debbuging though log messages for 4 independent modules. The REEL form factor was decided to be easier to be soldered manually if necessary. The IC gives flexibility to have already an integrated UART to USB conversion in the inferface of IIP, not needing the use of a external device like the FT232. The componet and its auxiliary subcircuitry can be seen on figure \ref{fig:iip-usb-circuitry}.
+For UART to USB conversion the FT4232HL-REEL IC from FTDI \cite{ftdi-ft4232h-datasheet} was chossen for enabling the debbuging though log messages for 4 independent modules. The REEL form factor was decided to be easier to be soldered manually if necessary. The IC gives flexibility to have an integrated UART to USB conversion in the inferface of IIP, not needing the use of a external device like the FT232. The component and its auxiliary subcircuitry can be seen on figure \ref{fig:iip-usb-circuitry}.
 
 \section{Test Points}
 
-On the three boards of IIP there are some test points that can be easily acessed from the front side of the panels. Others that are present on the "structure contact area" will not be available when the interface is assembled on the 2U CubeSat structure, see the PCBs top and bottom prints on figures figures \ref{fig:iip-all-boards-top-bottom-1} to \ref{fig:iip-all-boards-top-bottom-2}. The reason for this is that metal frame of the structure will be at the front blocking the access, referer to chapter \ref{ch:board-assembly} for more details. Next is presented the tables of the test points labels and their description of the boards Nº1: \ref{tab:iip-n1-testpoints}, Nº2: \ref{tab:iip-n2-testpoints} and Nº3: \ref{tab:iip-n3-testpoints}.
+On the three boards of IIP there are some test points that can be easily acessed from the front side of the panels. Others that are present on the "structure contact area" will not be available when the interface is assembled on the 2U CubeSat structure, see the PCBs top and bottom prints on figures figures \ref{fig:iip-all-boards-top-bottom-1} to \ref{fig:iip-all-boards-top-bottom-2}. The reason for this is that the metal frame of the structure will be at the front blocking the access, referer to chapter \ref{ch:board-assembly} for more details. Next is presented the tables of the test points labels and their description of the boards Nº1: \ref{tab:iip-n1-testpoints}, Nº2: \ref{tab:iip-n2-testpoints} and Nº3: \ref{tab:iip-n3-testpoints}.
 
 \begin{table}[!h]
     \centering

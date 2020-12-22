@@ -3,7 +3,7 @@
 %
 % Copyright © 2020 by Universidade Federal de Santa Catarina.
 %
-% Interstage Interface Panels of FloripaSat-2
+% Documentation of Interstage Interface Panels
 %
 % This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 % International License. To view a copy of this license,
@@ -11,22 +11,22 @@
 %
 
 %
-% \brief: Assembly instructions chapter.
+% \brief Assembly instructions chapter.
 %
-% \author: Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
+% \author Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
 %
-% \institution: Universidade Federal de Santa Catarina (UFSC)
+% \institution Universidade Federal de Santa Catarina (UFSC)
 %
-% \version: 0.1.1
+% \version 1.0.0
 %
-% \date: 14/07/20 (DD/MM/YY)
+% \date 14/07/20 (DD/MM/YY)
 %
-% Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
+% \note Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
 %
 
 \chapter{Board Assembly} \label{ch:board-assembly}
 
-IIP has the Bill of Material (BOM) for each board avalaible at its GitHub repository in excel spreeadsheets format. Also the PCBs can be assembled by a Pick-and-place machine using the .txt file found on the hardware/fabrication folder if desired, fiducials are placed on each board to make this possible. All components are to be fitted on the IIP boards, the only exception is the one describe below. The draftsman PDF documents of each board shows all the components positioning, they can be found here \cite{iip-draftsman}.
+IIP has the Bill of Material (BOM) for each board avalaible at its GitHub repository in excel spreeadsheets format. Also the PCBs can be assembled by a Pick-and-place machine using the .txt file found on the hardware/fabrication folder if desired, fiducials are placed on each board to make this possible. All components are to be fitted on the IIP boards, the only exception is the one described below. The draftsman PDF documents of each board shows all the components positioning, they can be found here \cite{iip-draftsman}.
 
 \section{DNP component}
 
@@ -34,6 +34,6 @@ There is only one "do not place" (DNP) component present in the Nº3 board, it i
 
 \section{Integration}
 
-IIP board Nº1 is to be mouted vertically inside the 2U strucuture on the -X referenced plane. IIP board Nº3 is to be mouted in the same plane of reference but in the other side, that is the +X plane. IIP board Nº2 is to be mouted on the -Y plane. The integration order of the interface panels follows their numeration, this means the first PCB to be integrated is Nº1, than Nº2 and at last Nº3. The internal PicoBlade connections to the modules must be done before proceding to mount the other panels.
+IIP board Nº1 is to be mouted vertically inside the 2U strucuture on the -X referenced plane. IIP board Nº3 is to be mouted in the same plane of reference but in the other side, that is the +X plane. IIP board Nº2 is to be mouted on the -Y plane. The integration order of the interface panels follows their numeration, this means the first PCB to be integrated is Nº1, then Nº2 and at last Nº3. The internal PicoBlade connections to the modules must be done before proceding to mount the other panels.
 
 The last cables to be connected are between Nº3 (figure \ref{fig:iip-n3-picoblades}) and Nº1 and Nº2 (figures \ref{fig:iip-n1-uart-picoblade} and \ref{fig:iip-n2-uart-picoblade}) for the labeled "UART" PicoBlades. The only interface of IIP that can be acessed when the 2U satellite is already integrated to the P-POD is the Nº2 board which is located the RBF pin and JTAGs 3 and 4.
