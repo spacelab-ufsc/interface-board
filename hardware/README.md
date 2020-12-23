@@ -16,20 +16,14 @@
 		<img src="https://img.shields.io/badge/CAD%20tool-altium%20v19.2-9cf?style=for-the-badge">
 	</a>
 	<a href="">
-		<img src="https://img.shields.io/badge/license-CERN-red?style=for-the-badge">
+		<img src="https://img.shields.io/badge/LICENSE-CERN%20OHL%202-red?style=for-the-badge">
 	</a>
-    <!--
-	<a href="https://github.com/spacelab-ufsc/obdh2/tree/dev/doc/build">
-		<img src="https://img.shields.io/badge/for%20more-here-lightgray?style=for-the-badge">
-	</a>
-    -->
 </p>
 
 <p align="center">
   	<a href="#overview">Overview</a> •
   	<a href="#architecture">Architecture</a> •
   	<a href="#development">Development</a> •
-  	<a href="#version">Version</a> •
   	<a href="#license">License</a> •
   	<a href="#notes">Notes</a>
 </p>
@@ -85,16 +79,11 @@ IIP is composed of 3 pcbs with the main components:
 
 TBD
 
-## Version
-
-#### v1.0
-
 ## License
 
-The hardware of IIP is licensed under CERN Open Hardware License (version 2).
+The hardware project of IIP is licensed under CERN Open Hardware License (version 2).
 
-## Notes
-Some references used:
+## References
 
 * [NanoUtil Interstage - GOMspace](https://gomspace.com/UserFiles/Subsystems/datasheet/gs-ds-nanoutil-interstage-12.pdf)
 * [Quad Serial project from Felipe Navarro](https://github.com/PY1CX/Quad-Serial)
