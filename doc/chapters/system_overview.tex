@@ -3,7 +3,7 @@
 %
 % Copyright © 2020 by Universidade Federal de Santa Catarina.
 %
-% Interstage Interface Panels (IIP)
+% Documentation of Interstage Interface Panels
 %
 % This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 % International License. To view a copy of this license,
@@ -11,24 +11,24 @@
 %
 
 %
-% \brief: System overview chapter.
+% \brief System overview chapter.
 %
-% \author: Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
+% \author Yan Castro de Azeredo <yan.azeredo@spacelab.ufsc.br>
 %
-% \institution: Universidade Federal de Santa Catarina (UFSC)
+% \institution Universidade Federal de Santa Catarina (UFSC)
 %
-% \version: 0.1.1
+% \version 1.0.0
 %
-% \date: 14/07/20 (DD/MM/YY)
+% \date 14/07/20 (DD/MM/YY)
 %
-% Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
+% \note Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
 %
 
 \chapter{System Overview} \label{ch:system-overview}
 
-\section{Block diagram}
+\section{Block Diagram}
 
-On figure \ref{fig:block-diagram} is displayed the full system block diagram with external devices such as the MSP-FET and a personal computer (PC) during normal usage of IIP. Up to four cubesat modules can be acessed from its interfaces, been though the pin headers or the USB port. For a specific project, the core modules (EPS, OBDH and TTC) and a optional payload are already represented with their respective interconections. These connections are done internaly with PicoBlade connectors, which are compatible with SpaceLab's modules. 
+On figure \ref{fig:block-diagram} is displayed the full system block diagram with external devices such as the MSP-FET and a personal computer (PC) during normal usage of IIP. Up to four CubeSat modules can be acessed from its interfaces, been though the pin headers or the USB port. For a specific project, the core modules (EPS, OBDH and TTC) and a optional payload are already represented with their respective interconnections. These connections are done internally with PicoBlade connectors, which are compatible with SpaceLab's modules. 
 
 \begin{figure}[!ht]
     \begin{center}
@@ -38,17 +38,31 @@ On figure \ref{fig:block-diagram} is displayed the full system block diagram wit
     \end{center}
 \end{figure}
 
-\section{Board numeration} %\Label{ssec:board-numeration}
+\section{Board Numeration}
 
-Since the IIP is divided up to 3 boards, a numeration was adopted for better refering each PCB on this document. The numeration followed the criteria of the mounting sides determined by the carthesian coordinates of a Poly Picosatellite Orbital Deployer (P-POD) \cite{p-pod-user-guide}. Starting the numeration "Nº1" from the refereced -X plane, the other boards are classified clock-wise that can be found showed on figure \ref{fig:iip-numeration}, each labeled axis can be better seen on figure \ref{fig:iip-all-boards-top-bottom}. The boards also received names with their unique functionality, Nº1 board is also called "IIP Charge", Nº2 board the "IIP RBF" and Nº3 board the "IIP Quad UART", these nominations are present the PCBs source files. Details about the dimensions and mouting on a 2U structure can be read in the assembly chapter \ref{ch:board-assembly}.
+Since the IIP is divided up to 3 boards, a numeration was adopted for better refering each PCB on this document. The numeration followed the criteria of the mounting sides determined by the cartesian axis of a Poly Picosatellite Orbital Deployer (P-POD) \cite{p-pod-user-guide}. Starting the numeration "Nº1" from the referenced -Y plane, the other boards are classified clock-wise that can be found on figure \ref{fig:iip-numeration}, each labeled axis can be better seen on figures \ref{fig:iip-all-boards-top-bottom-1} to \ref{fig:iip-all-boards-top-bottom-2}. The boards also received names with their unique functionality, Nº1 board is also called "IIP Charge", Nº2 board the "IIP RBF" and Nº3 board the "IIP Quad UART", these nominations are present on the PCBs source files.
 
 \begin{figure}[!ht]
   \centering
     \includegraphics[width=0.5\linewidth]{figures/iip_n1_perspective.png}
-    \caption{IIP Nº1 Board}
+    \caption{IIP Nº1 board.}
     \includegraphics[width=0.5\linewidth]{figures/iip_n2_perspective.png}
-    \caption{IIP Nº2 Board}
+    \caption{IIP Nº2 board.}
     \includegraphics[width=0.5\linewidth]{figures/iip_n3_perspective.png}
-    \caption{IIP Nº3 Board}
+    \caption{IIP Nº3 board.}
     \label{fig:iip-numeration}
+\end{figure}
+
+\section{Board Dimensions}
+
+IIP is to be mouted vertically inside on the sides of a 2U CubeSat structure, this makes de Nº1 and Nº3 boards having the same PCB dimensions because they are on the same X plane of reference, see figure \ref{fig:iip-n1-n3-dimensions}. The Nº2 board dimensions can be seen in figure \ref{fig:iip-n2-dimensions}. The "structure contact area" is the place where the metal frame of the CubeSat structure will be overlapping. All other measurements important to integration and assembly are present in the draftsman PDF documents of each board here \cite{iip-draftsman} on GitHub.
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=\linewidth]{figures/iip_n1_n3_dimensions.png}
+    \caption{IIP Nº1 and Nº3 top dimensions.}
+    \label{fig:iip-n1-n3-dimensions}
+    \includegraphics[width=\linewidth]{figures/iip_n2_dimensions.png}
+    \caption{IIP Nº2 board top dimensions.}
+    \label{fig:iip-n2-dimensions}
 \end{figure}
