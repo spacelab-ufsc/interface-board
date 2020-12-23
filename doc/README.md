@@ -1,4 +1,35 @@
-# Documentation
+<h1 align="center">
+	IIP Documentation
+	<br>
+</h1>
+
+<h4 align="center">Documentation of the Interstage Interface Panels.</h4>
+
+<p align="center">
+    <a href="">
+		<img src="https://img.shields.io/badge/status-development-green?style=for-the-badge">
+	</a>
+    <a href="">
+		<img src="https://img.shields.io/badge/version-1.0-blue?style=for-the-badge">
+	</a>
+	<a href="">
+		<img src="https://img.shields.io/badge/CAD%20tool-altium%20v19.2-9cf?style=for-the-badge">
+	</a>
+	<a href="">
+		<img src="https://img.shields.io/badge/LICENSE-CC%20BY--SA%204.0-red?style=for-the-badge">
+	</a>
+</p>
+
+<p align="center">
+  	<a href="#dependencies">Dependencies</a> •
+  	<a href="#generating-the-pdf-file">Generating the PDF file</a> •
+  	<a href="#license">License</a> •
+  	<a href="#notes">Notes</a>
+</p>
+
+<p align="center">
+    <img src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_fullset.PNG">
+</p>
 
 ## Dependencies
 
@@ -11,15 +42,9 @@
 make
 ```
 
-## Version
-
-v1.0
-
---->
-
 ## License
 
-The documentation part of this project is licensed under Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0).
+The documentation is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 
 ## Notes
 
