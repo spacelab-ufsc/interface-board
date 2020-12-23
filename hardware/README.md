@@ -3,7 +3,7 @@
 	<br>
 </h1>
 
-<h4 align="center">Interface panels hardware project (sources, outputs, and documentation).</h4>
+<h4 align="center">Interface panels hardware project (sources and outputs).</h4>
 
 <p align="center">
     <a href="">
@@ -22,10 +22,10 @@
 
 <p align="center">
   	<a href="#overview">Overview</a> •
-  	<a href="#architecture">Architecture</a> •
+  	<a href="#hardware-architecture-diagram">Architecture</a> •
   	<a href="#development">Development</a> •
   	<a href="#license">License</a> •
-  	<a href="#notes">Notes</a>
+  	<a href="#references">References</a>
 </p>
 
 ## Overview
