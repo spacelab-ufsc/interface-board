@@ -13,7 +13,7 @@
 		<img src="https://img.shields.io/badge/version-1.0-blue?style=for-the-badge">
 	</a>
 	<a href="">
-		<img src="https://img.shields.io/badge/CAD%20tool-altium%20v19.2-9cf?style=for-the-badge">
+		<img src="https://img.shields.io/badge/DOC%20tool-LaTeX-9cf?style=for-the-badge">
 	</a>
 	<a href="">
 		<img src="https://img.shields.io/badge/LICENSE-CC%20BY--SA%204.0-red?style=for-the-badge">
@@ -25,10 +25,6 @@
   	<a href="#generating-the-pdf-file">Generating the PDF file</a> •
   	<a href="#license">License</a> •
   	<a href="#notes">Notes</a>
-</p>
-
-<p align="center">
-    <img src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_fullset.PNG">
 </p>
 
 ## Dependencies
