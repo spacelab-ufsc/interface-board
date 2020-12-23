@@ -16,23 +16,13 @@
 		<img src="https://img.shields.io/badge/CAD%20tool-altium%20v19.2-9cf?style=for-the-badge">
 	</a>
 	<a href="">
-		<img src="https://img.shields.io/badge/license-CERN-red?style=for-the-badge">
+		<img src="https://img.shields.io/badge/LICENSE-CERN%20OHL%202-red?style=for-the-badge">
 	</a>
-	<!---
-    <a href="https://github.com/spacelab-ufsc/obdh2/tree/dev/doc/build">
-		<img src="https://img.shields.io/badge/for%20more-here-lightgray?style=for-the-badge">
-	</a>
-    --->
 </p>
 
 <p align="center">
   	<a href="#overview">Overview</a> •
-  	<a href="#repository-organization">Repository Organizarion</a> •
   	<a href="#license">License</a> •
-  	<a href="#releases">Releases</a> •
-  	<!---
-      <a href="#acknowledgements">Acknowledgements</a> •
-    --->
   	<a href="#notes">Notes</a>
 </p>
 
@@ -42,26 +32,11 @@
 
 ## Overview
 
-Interstage Interface Panels (IIP) are vertical mounted PCBs designed to give external access to the modules inside of a 2U CubeSat during final assembly, integration and testing. IIP is composed by 3 different boards, the complete set allows for the nanosatellite to be charged, programed and debugged.
-
-## Repository Organization
-	- doc: Technical IIP documentation.
-	- hardware: IIP hardware project (sources and outputs).
+Interstage Interface Panels (IIP) are vertical mounted PCBs designed to give external access to the modules inside of a 2U or 3U CubeSat during final assembly, integration and testing. IIP is composed by 3 different boards, the complete set allows for the nanosatellite to be charged, programed and debugged.
 
 ## License
 
-This project is licensed under CERN Open Hardware License (version 2) and Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0).
-
-## Releases
-
-#### v1.0
-	- Initial finished version of the hardware.
-	- Initial documentation.
-
-<!---
-## Acknowledgements
-
---->
+This project is licensed under CERN Open Hardware License (version 2). The documentation is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 
 ## Notes
 
