@@ -44,7 +44,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -61,7 +61,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -339,108 +339,112 @@ DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\board_edge\features
+DocumentPath=Project Outputs for 3_iip_quad_uart\Design Rule Check - 3_iip_quad_uart.html
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_layer\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\board_edge\features
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_overlay\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_paste\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_solder\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_bot\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_bot\features
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\dimensions\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\dimensions\features
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\internal_plane_1\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\mid-layer_1\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\internal_plane_1\features
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_layer\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\mid-layer_1\features
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_overlay\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_layer\features
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_paste\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_overlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_solder\features
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_paste\features
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=../\outputs\assembly_odb\odb\matrix\matrix
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_solder\features
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=../\outputs\assembly_odb\odb\matrix\matrix
 DItemRevisionGUID=
 
 [GeneratedDocument57]
-DocumentPath=../outputs\board_3dmodels\parasolid_3dmodel_iip_quad_uart.x_t
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
 [GeneratedDocument58]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\profile
+DocumentPath=../outputs\board_3dmodels\parasolid_3dmodel_iip_quad_uart.x_t
 DItemRevisionGUID=
 
 [GeneratedDocument59]
-DocumentPath=../outputs\board_3dmodels\step_3dmodel_iip_quad_uart.step
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\profile
 DItemRevisionGUID=
 
 [GeneratedDocument60]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\stephdr
+DocumentPath=../outputs\board_3dmodels\step_3dmodel_iip_quad_uart.step
 DItemRevisionGUID=
 
 [GeneratedDocument61]
-DocumentPath=../\outputs\test_point\test_point_iip_quad_uart.ipc
+DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
 [GeneratedDocument62]
+DocumentPath=../\outputs\test_point\test_point_iip_quad_uart.ipc
+DItemRevisionGUID=
+
+[GeneratedDocument63]
 DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Parameter1]
-Name=DesignedBy
-Value=Yan Castro de Azeredo
+Name=ProjectRevision
+Value=1.0
 
 [Parameter2]
 Name=ProjectCode
 Value=IIPN3
 
 [Parameter3]
-Name=ProjectRevision
-Value=1.0
+Name=DesignedBy
+Value=Yan Castro de Azeredo
 
 [Configuration1]
 Name=Sources
@@ -1081,7 +1085,7 @@ Type32=1
 Type33=1
 Type34=1
 Type35=1
-Type36=1
+Type36=0
 Type37=1
 Type38=1
 Type39=1
