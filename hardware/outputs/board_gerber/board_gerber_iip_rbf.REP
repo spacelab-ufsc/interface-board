@@ -2,6 +2,28 @@
 FileName = board_gerber_iip_rbf.GBR
 AutoAperture = True
 *************************************************************
+Generating : Dimensions
+      File : board_gerber_iip_rbf.GM2
+
+    Adding Layer      : Dimensions
+
+    Adding Layer      : Board Edge
+
+    Adding Layer      : Sheet
+
+
+Used DCodes :
+    D10
+    D11
+    D14
+    D15
+    D34
+    D35
+    D36
+    D37
+*************************************************************
+
+*************************************************************
 Generating : Bottom Overlay
       File : board_gerber_iip_rbf.GBO
 
@@ -17,9 +39,77 @@ Used DCodes :
     D11
     D14
     D15
-    D16
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : board_gerber_iip_rbf.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Board Edge
+
+    Adding Layer      : Sheet
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : board_gerber_iip_rbf.GD1
+
+    Adding Layer      : Board Edge
+
+    Adding Layer      : Sheet
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D10
+    D11
+    D14
+    D15
+    D35
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : board_gerber_iip_rbf.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Board Edge
+
+    Adding Layer      : Sheet
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D14
+    D15
     D17
-    D36
+    D18
+    D19
+    D20
+    D21
 *************************************************************
 
 *************************************************************
@@ -43,11 +133,53 @@ Used DCodes :
     D14
     D15
     D16
-    D17
-    D18
+    D27
+    D28
     D29
-    D30
-    D31
+*************************************************************
+
+*************************************************************
+Generating : Board Edge
+      File : board_gerber_iip_rbf.GM1
+
+    Adding Layer      : Board Edge
+
+    Adding Layer      : Board Edge
+
+    Adding Layer      : Sheet
+
+
+Used DCodes :
+    D10
+    D11
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : board_gerber_iip_rbf.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Board Edge
+
+    Adding Layer      : Sheet
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D14
+    D15
+    D16
+    D22
+    D23
+    D24
+    D25
+    D26
 *************************************************************
 
 *************************************************************
@@ -76,48 +208,20 @@ Used DCodes :
     D19
     D20
     D21
-    D22
-    D23
+    D31
+    D32
     D33
-    D34
-    D35
 *************************************************************
 
 *************************************************************
-Generating : Dimensions
-      File : board_gerber_iip_rbf.GM2
+Generating : Bottom Layer
+      File : board_gerber_iip_rbf.GBL
 
-    Adding Layer      : Dimensions
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Board Edge
 
     Adding Layer      : Sheet
-
-
-Used DCodes :
-    D10
-    D11
-    D14
-    D15
-    D16
-    D17
-    D36
-    D37
-    D38
-    D39
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : board_gerber_iip_rbf.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Board Edge
-
-    Adding Layer      : Sheet
-
-    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
@@ -128,12 +232,15 @@ Used DCodes :
     D14
     D15
     D16
-    D17
-    D19
-    D20
-    D21
     D22
     D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
 *************************************************************
 
 *************************************************************
@@ -157,134 +264,5 @@ Used DCodes :
     D14
     D15
     D16
-    D17
-    D18
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : board_gerber_iip_rbf.GTO
-
-    Adding Layer      : Top Overlay
-
-    Adding Layer      : Board Edge
-
-    Adding Layer      : Sheet
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Board Edge
-      File : board_gerber_iip_rbf.GM1
-
-    Adding Layer      : Board Edge
-
-    Adding Layer      : Board Edge
-
-    Adding Layer      : Sheet
-
-
-Used DCodes :
-    D10
-    D11
-    D14
-    D15
-    D16
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : board_gerber_iip_rbf.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Board Edge
-
-    Adding Layer      : Sheet
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D14
-    D15
-    D16
-    D17
-    D18
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : board_gerber_iip_rbf.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Board Edge
-
-    Adding Layer      : Sheet
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D14
-    D15
-    D16
-    D17
-    D18
-    D24
-    D25
-    D26
-    D27
-    D28
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : board_gerber_iip_rbf.GD1
-
-    Adding Layer      : Board Edge
-
-    Adding Layer      : Sheet
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D10
-    D11
-    D14
-    D15
-    D16
-    D17
-    D37
-    D40
-    D41
 *************************************************************
 
