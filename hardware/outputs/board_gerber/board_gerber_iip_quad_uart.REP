@@ -22,8 +22,8 @@ Used DCodes :
     D17
     D18
     D19
-    D20
-    D21
+    D25
+    D26
     D27
     D28
     D29
@@ -32,58 +32,46 @@ Used DCodes :
     D32
     D33
     D34
-    D35
-    D36
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : board_gerber_iip_quad_uart.GTO
+Generating : Bottom Solder
+      File : board_gerber_iip_quad_uart.GBS
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : Board edge
 
     Adding Layer      : Sheet
 
+    Adding Layer      : Bottom Layer
 
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-*************************************************************
-
-*************************************************************
-Generating : Dimensions
-      File : board_gerber_iip_quad_uart.GM2
-
-    Adding Layer      : Dimensions
-
-    Adding Layer      : Board edge
-
-    Adding Layer      : Sheet
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D10
     D12
-    D16
     D17
     D18
     D19
     D20
-    D21
-    D59
-    D60
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
 *************************************************************
 
 *************************************************************
@@ -112,56 +100,37 @@ Used DCodes :
     D22
     D23
     D24
-    D25
-    D26
+    D43
+    D44
     D45
     D46
     D47
     D48
-    D49
-    D50
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : board_gerber_iip_quad_uart.GBS
+Generating : Bottom Overlay
+      File : board_gerber_iip_quad_uart.GBO
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Bottom Overlay
 
     Adding Layer      : Board edge
 
     Adding Layer      : Sheet
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
 
 Used DCodes :
     D10
+    D11
     D12
+    D13
+    D16
     D17
     D18
     D19
-    D20
-    D21
-    D22
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D51
-    D52
-    D53
-    D54
     D55
     D56
+    D57
 *************************************************************
 
 *************************************************************
@@ -181,86 +150,28 @@ Used DCodes :
     D17
     D18
     D19
-    D20
-    D21
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : board_gerber_iip_quad_uart.GTL
+Generating : Dimensions
+      File : board_gerber_iip_quad_uart.GM2
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Dimensions
 
     Adding Layer      : Board edge
 
     Adding Layer      : Sheet
 
-    Adding Layer      : Multi-Layer
-
 
 Used DCodes :
     D10
     D12
+    D16
     D17
     D18
     D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : board_gerber_iip_quad_uart.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Board edge
-
-    Adding Layer      : Sheet
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D12
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
+    D57
+    D58
 *************************************************************
 
 *************************************************************
@@ -289,35 +200,40 @@ Used DCodes :
     D22
     D23
     D24
-    D25
-    D26
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : board_gerber_iip_quad_uart.GBO
+Generating : Top Layer
+      File : board_gerber_iip_quad_uart.GTL
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Layer
 
     Adding Layer      : Board edge
 
     Adding Layer      : Sheet
 
+    Adding Layer      : Multi-Layer
+
 
 Used DCodes :
     D10
-    D11
     D12
-    D13
-    D16
     D17
     D18
     D19
     D20
     D21
-    D57
-    D58
-    D59
+    D22
+    D23
+    D24
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
 *************************************************************
 
 *************************************************************
@@ -339,9 +255,71 @@ Used DCodes :
     D17
     D18
     D19
+    D59
+    D60
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : board_gerber_iip_quad_uart.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Board edge
+
+    Adding Layer      : Sheet
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D17
+    D18
+    D19
     D20
     D21
-    D61
-    D62
+    D22
+    D23
+    D24
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : board_gerber_iip_quad_uart.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Board edge
+
+    Adding Layer      : Sheet
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
 *************************************************************
 
