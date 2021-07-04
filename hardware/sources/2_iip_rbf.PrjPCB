@@ -162,7 +162,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\outputs\camtastic\iip_rbf_camtastic.Cam
+DocumentPath=..\outputs\camtastic\2_iip_rbf_camtastic_v2.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -243,275 +243,179 @@ DocumentPath=../\fabrication\2_iip_rbf.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=../\outputs\assembly_odb\assembly_odb_iip_charge.REP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=../\outputs\assembly_odb\assembly_odb_iip_rbf.REP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
 DocumentPath=../\outputs\assembly_pick_place\assembly_pick_place_iip_charge.txt
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument18]
 DocumentPath=../\outputs\assembly_pick_place\assembly_pick_place_iip_rbf.txt
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument19]
 DocumentPath=..\outputs\board_bom\board_bom_iip_charge.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument20]
 DocumentPath=..\outputs\board_bom\board_bom_iip_rbf.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument21]
+DocumentPath=../\outputs\board_bom\board_bom_iip_rbf.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument22]
 DocumentPath=../\outputs\board_drc\board_drc_iip_charge.html
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument23]
 DocumentPath=../\outputs\board_drc\board_drc_iip_rbf.html
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument24]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument25]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument26]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument27]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument28]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument29]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GD1
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument30]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument31]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument32]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument33]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument34]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument35]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument36]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_charge.REP
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument37]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument38]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument39]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument40]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument41]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument42]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GD1
 DItemRevisionGUID=
 
-[GeneratedDocument44]
+[GeneratedDocument43]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument44]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument45]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument46]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument47]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument48]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument49]
 DocumentPath=../\outputs\board_gerber\board_gerber_iip_rbf.REP
 DItemRevisionGUID=
 
-[GeneratedDocument51]
+[GeneratedDocument50]
 DocumentPath=../\outputs\board_nc_drill\board_nc_drill_iip_charge.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument52]
+[GeneratedDocument51]
 DocumentPath=../\outputs\board_nc_drill\board_nc_drill_iip_charge.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument53]
+[GeneratedDocument52]
 DocumentPath=../\outputs\board_nc_drill\board_nc_drill_iip_charge.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument54]
+[GeneratedDocument53]
 DocumentPath=../\outputs\board_nc_drill\board_nc_drill_iip_rbf.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument55]
+[GeneratedDocument54]
 DocumentPath=../\outputs\board_nc_drill\board_nc_drill_iip_rbf.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument56]
+[GeneratedDocument55]
 DocumentPath=../\outputs\board_nc_drill\board_nc_drill_iip_rbf.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument57]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument58]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument59]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument60]
+[GeneratedDocument56]
 DocumentPath=Project Outputs for 2_iip_rbf\Design Rule Check - 2_iip_rbf.html
 DItemRevisionGUID=
 
-[GeneratedDocument61]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\board_edge\features
-DItemRevisionGUID=
-
-[GeneratedDocument62]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument63]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument64]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument65]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument66]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument67]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument68]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\dimensions\features
-DItemRevisionGUID=
-
-[GeneratedDocument69]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument70]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\internal_plane_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument71]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\mid-layer_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument72]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument73]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument74]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument75]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument76]
-DocumentPath=../\outputs\assembly_odb\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument77]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument78]
+[GeneratedDocument57]
 DocumentPath=../outputs\board_3dmodels\parasolid_3dmodel_iip_rbf.x_t
 DItemRevisionGUID=
 
-[GeneratedDocument79]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument80]
+[GeneratedDocument58]
 DocumentPath=../outputs\board_3dmodels\step_3dmodel_iip_rbf.step
 DItemRevisionGUID=
 
-[GeneratedDocument81]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument82]
+[GeneratedDocument59]
 DocumentPath=../\outputs\test_point\test_point_iip_charge.ipc
 DItemRevisionGUID=
 
-[GeneratedDocument83]
+[GeneratedDocument60]
 DocumentPath=../\outputs\test_point\test_point_iip_rbf.ipc
-DItemRevisionGUID=
-
-[GeneratedDocument84]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Parameter1]
@@ -524,7 +428,7 @@ Value=IIPN2
 
 [Parameter3]
 Name=ProjectRevision
-Value=1.0
+Value=2.0
 
 [Configuration1]
 Name=Sources
@@ -1137,6 +1041,36 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad v7 Capture Design
+OutputName12=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=P-CAD ASCII
+OutputName13=P-CAD ASCII (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD V16 Schematic Design
+OutputName14=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=SiSoft
+OutputName15=SiSoft (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

@@ -157,7 +157,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\outputs\camtastic\iip_quad_uart_camtastic.Cam
+DocumentPath=..\outputs\camtastic\3_iip_quad_uart_camtastic_v2.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -247,15 +247,15 @@ DocumentPath=../\fabrication\3_iip_quad_uart.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=../\outputs\assembly_odb\assembly_odb_iip_quad_uart.REP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
 DocumentPath=../\outputs\assembly_pick_place\assembly_pick_place_iip_quad_uart.txt
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=..\outputs\board_bom\board_bom_iip_quad_uart.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=../\outputs\board_bom\board_bom_iip_quad_uart.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument20]
@@ -327,124 +327,32 @@ DocumentPath=../\outputs\board_nc_drill\board_nc_drill_iip_quad_uart.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument40]
 DocumentPath=Project Outputs for 3_iip_quad_uart\Design Rule Check - 3_iip_quad_uart.html
 DItemRevisionGUID=
 
-[GeneratedDocument41]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\board_edge\features
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\dimensions\features
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\internal_plane_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\mid-layer_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=../\outputs\assembly_odb\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument57]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument58]
+[GeneratedDocument38]
 DocumentPath=../outputs\board_3dmodels\parasolid_3dmodel_iip_quad_uart.x_t
 DItemRevisionGUID=
 
-[GeneratedDocument59]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument60]
+[GeneratedDocument39]
 DocumentPath=../outputs\board_3dmodels\step_3dmodel_iip_quad_uart.step
 DItemRevisionGUID=
 
-[GeneratedDocument61]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument62]
+[GeneratedDocument40]
 DocumentPath=../\outputs\test_point\test_point_iip_quad_uart.ipc
 DItemRevisionGUID=
 
-[GeneratedDocument63]
-DocumentPath=../\outputs\assembly_odb\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
-
 [Parameter1]
-Name=ProjectRevision
-Value=1.0
+Name=DesignedBy
+Value=Yan Castro de Azeredo
 
 [Parameter2]
 Name=ProjectCode
 Value=IIPN3
 
 [Parameter3]
-Name=DesignedBy
-Value=Yan Castro de Azeredo
+Name=ProjectRevision
+Value=2.0
 
 [Configuration1]
 Name=Sources
@@ -1037,6 +945,36 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad v7 Capture Design
+OutputName12=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=P-CAD ASCII
+OutputName13=P-CAD ASCII (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD V16 Schematic Design
+OutputName14=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=SiSoft
+OutputName15=SiSoft (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
