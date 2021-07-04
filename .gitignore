@@ -7,4 +7,18 @@ Project Outputs*
 *.log
 *.Dat
 *.htm
+*.TLT
+*.REP
 Status Report.txt
+
+# Individual fabrication file except zip with gerbers and nc drills, pick place text and BOM excel spreadsheet
+
+hardware/fabrication/*
+!hardware/fabrication/*.zip
+!hardware/fabrication/*.TXT
+!hardware/fabrication/*.xlsx
+
+# Filtering individual gerber files except zipped version
+
+hardware/outputs/board_gerber/*
+!hardware/outputs/board_gerber/*.zip
