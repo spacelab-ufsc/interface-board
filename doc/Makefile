@@ -1,5 +1,6 @@
 SRC=main
-TARGET=slb-iip-doc-v1.0
+VERSION=v2.0
+TARGET=slb-iip-doc-$(VERSION)
 
 ifndef BUILD_DIR
 	BUILD_DIR=build
