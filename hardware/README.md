@@ -69,15 +69,39 @@ IIP is composed of 3 pcbs with the main components:
 * One Vertical mini B USB 2.0 port for quad UART channel debbuging;
 * Two 5 pin PicoBlade for interfacing boards Nº1 and Nº2;
 
+### Nº4 board (4_IIP):
+
+#### Closure variant
+
+<p align="center">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_n4_closure_top.PNG">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_n4_closure_bottom.PNG">
+</p>
+
+* Empty PCB to close the open side of the 2U/3U CubeSat structure with some easter eggs;
+
+#### Camera variant
+
+<p align="center">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_n4_camera_top.PNG">
+	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_n4_camera_bottom.PNG">
+</p>
+
+* Hole mount for a M12 lens camera;
+
+> NOTE: The dimensions for the mouting holes follow a old [board breakout design](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi4i8PHidLxAhXFJrkGHU2GBCQQFnoECAUQAA&url=https%3A%2F%2Fwww.robotshop.com%2Fmedia%2Ffiles%2Fpdf2%2Fmt9d111_3.2-inch_2-megapixel_module_datasheet.pdf&usg=AOvVaw37NUkZ5OMWWqNb4jGU3Vi5), they are still to be tested.
+
 ## Hardware architecture diagram
 
 <p align="center">
 <img src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_block_diagram.png">
 </p>
 
-## Development
+> This image refers to the v2.0 release.
 
-TBD
+#### Manufacture
+
+The folder [fabrication](https://github.com/spacelab-ufsc/interface-board/tree/master/hardware/fabrication) contain 3 "ready to go" files: the gerbers and nc_drills for manufacturing the board, the BOM with all required components, and the pick_place file for automated assembly for each iip board. Additional files are avaliable in the [outputs](https://github.com/spacelab-ufsc/interface-board/tree/master/hardware/outputs) folder, which contain several useful files and documents, such as: 3D models, bill of materials, schematics, layout prints, and draftsman.
 
 ## License
 
