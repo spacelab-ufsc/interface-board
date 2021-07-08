@@ -32,7 +32,16 @@
 
 ## Overview
 
-Interstage Interface Panels (IIP) are vertical mounted PCBs designed to give external access to the modules inside of a 2U or 3U CubeSat during final assembly, integration and testing. IIP is composed by 3 different boards, the complete set allows for the nanosatellite to be charged, programed and debugged.
+Interstage Interface Panels (IIP) are vertical mounted PCBs designed to give external access to the modules inside of a 2U or 3U CubeSat during final assembly, integration and testing. IIP is composed by 4 different boards, the complete set allows for the nanosatellite to be charged, programed and debugged.
+
+
+## Repository Organization
+	- doc: IIP documentation.
+	- hardware: IIP hardware project (sources and outputs).
+
+## Releases
+
+The IIP hardware releases are synchronized in order to garantee compatibility. Refer to the [documentation](https://github.com/spacelab-ufsc/interface-board/tree/master/doc) for compatibility notes.
 
 ## License
 
