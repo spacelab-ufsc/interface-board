@@ -26,24 +26,22 @@
 
 \chapter{Hardware} \label{ch:hardware}
 
-IIP is designed to be mouted vertically on the sides of a 2U CubeSat structure and provide all the minimal features for AIT. In the following sections, the hardware design, external and internal connectors, the FT4232H IC and test points are described in detail. On figures \ref{fig:iip-all-boards-top-bottom-1} to \ref{fig:iip-all-boards-top-bottom-2} is displayed top and bottom PCB prints of the three boards.
+IIP is designed to be mouted vertically on the sides of a 2U or 3U CubeSat structure and provide all the minimal features for AIT. In the following sections, the hardware design, external and internal connectors, the FT4232H IC and test points are described in detail. On \autoref{fig:iip-all-boards} is displayed top and bottom PCB prints of all boards.
 
-\begin{figure}[!ht]
-  \centering
-    \includegraphics[width=0.5\linewidth]{figures/iip_n1_top.png}
-    \caption{IIP Nº1 board top view.}
-    \label{fig:iip-all-boards-top-bottom-1}
-    \includegraphics[width=0.5\linewidth]{figures/iip_n1_bottom.png}
-    \caption{IIP Nº1 board bottom view.}
-    \includegraphics[width=0.5\linewidth]{figures/iip_n2_top.png}
-    \caption{IIP Nº2 board top view.}
-    \includegraphics[width=0.5\linewidth]{figures/iip_n2_bottom.png}
-    \caption{IIP Nº2 board bottom view.}
-    \includegraphics[width=0.5\linewidth]{figures/iip_n3_top.png}
-    \caption{IIP Nº3 board top view.}
-    \includegraphics[width=0.5\linewidth]{figures/iip_n3_bottom.png}
-    \caption{IIP Nº3 board bottom view.}
-    \label{fig:iip-all-boards-top-bottom-2}
+\begin{figure}[!h]
+\centering     %%% not \center
+\subfigure[IIP Nº1 "Charge" top]{\label{fig:a}\includegraphics[width=75mm]{figures/iip_n1_top.png}}
+\subfigure[IIP Nº1 "Charge" bottom]{\label{fig:b}\includegraphics[width=75mm]{figures/iip_n1_bottom.png}}
+\subfigure[IIP Nº2 "RBF" top]{\label{fig:a}\includegraphics[width=75mm]{figures/iip_n2_top.png}}
+\subfigure[IIP Nº2 "RBF" bottom]{\label{fig:b}\includegraphics[width=75mm]{figures/iip_n2_bottom.png}}
+\subfigure[IIP Nº3 "Quad UART" top]{\label{fig:a}\includegraphics[width=75mm]{figures/iip_n3_top.png}}
+\subfigure[IIP Nº3 "Quad UART" bottom]{\label{fig:b}\includegraphics[width=75mm]{figures/iip_n3_bottom.png}}
+\subfigure[IIP Nº4 "Closure" variant top]{\label{fig:a}\includegraphics[width=75mm]{figures/iip_n4_closure_top.png}}
+\subfigure[IIP Nº4 "Closure" variant bottom]{\label{fig:b}\includegraphics[width=75mm]{figures/iip_n4_closure_bottom.png}}
+\subfigure[IIP Nº4 "Camera" variant top]{\label{fig:a}\includegraphics[width=75mm]{figures/iip_n4_camera_top.png}}
+\subfigure[IIP Nº4 "Camera" variant bottom]{\label{fig:b}\includegraphics[width=75mm]{figures/iip_n4_camera_bottom.png}}
+\caption{IIP fullset of boards.}
+\label{fig:iip-all-boards}
 \end{figure}
 
 \section{Hardware Design}
@@ -223,15 +221,31 @@ On the three boards of IIP there are some test points that can be easily acessed
         TP3                & (VPHY) 3V3 FT4232H power input. \\
         TP4                & (REF) Current reference for FT4232H. \\
         TP5                & (RESET\#) Reset input for FT4232H. \\
-        TP6                & (EECS) EEPROM chip select - pulled down by 10k resistor. \\
-        TP7                & (VCCIO) I/O interface 3V3 power supply input. \\
-        TP8                & (EEDATA) EEPROM data I/O - pulled up by 10k resistor. \\
-        TP9                & (EECLK) Clock signal to EEPROM - not used. \\
-        TP10               & (PWREN\#) Active low power-enable output. \\
-        TP11               & (SUSPEND\#) Active low when USB is in suspend mode. \\
-        TP12               & (GND) 0V ground input for FT4232H.\\
+        TP6                & (VCCIO) I/O interface 3V3 power supply input. \\
+        TP7                & (PWREN\#) Active low power-enable output. \\
+        TP8                & (SUSPEND\#) Active low when USB is in suspend mode. \\
+        TP9                & (GND) 0V ground input for FT4232H.\\
         \bottomrule[1.5pt]
     \end{tabular}
     \caption{IIP Nº3 board test points.}
     \label{tab:iip-n3-testpoints}
 \end{table}
+
+\section{M12 Camera Lens Mount}
+
+On IIP Nº4 variant camera board has a center hole to serve as an opening for an M12 camera lens, the other two holes are for mouting the ArduCam MT9D111 rev.B. breakout board, as seen in \autoref{fig:arducam}. On \autoref{fig:n4-mec} is displayed the PCB mouting hole distances and sizes for the camera.
+
+\begin{figure}[!ht]
+  \centering
+    \subfigure[]{\label{fig:a}\includegraphics[width=75mm]{figures/ArduCam_MT9D111_top.png}}
+    \subfigure[]{\label{fig:b}\includegraphics[width=55mm]{figures/ArduCam_MT9D111_bottom.png}}
+    \caption{ArduCam MT9D111 rev.B.}
+    \label{fig:arducam}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+    \includegraphics[width=0.75\linewidth]{figures/iip_n4_camera_mec_specs.png}
+    \caption{IIP Nº4 Camera variant mechanical dimensions.}
+    \label{fig:n4-mec}
+\end{figure}
