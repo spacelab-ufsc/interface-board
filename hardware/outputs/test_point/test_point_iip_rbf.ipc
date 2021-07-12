@@ -1,7 +1,7 @@
 C  Project Name : 
 C  Board Name : 
-C  Date : 11/29/2020
-C  Time : 11:13:16 PM
+C  Date : 6/30/2021
+C  Time : 11:43:00 PM
 C  
 C  --------------- Layer Stackup --------------------
 C  
@@ -12,7 +12,7 @@ C  --------------------------------------------------
 C  
 P  JOB
 P  UNITS CUST
-P  TITLE ProF324.tmp
+P  TITLE Pro8AAD.tmp
 P  NUM 1.0
 P  REV A
 P  VER IPC-D-356A
@@ -45,12 +45,12 @@ P  IMAGE PRIMARY
 327                 CN4   -0         UA02X 010012Y 009799X0827Y1181R000 S0
 327                 CN5   -0         UA02X 020293Y 009799X0827Y1181R000 S0
 327                 CN5   -0         UA02X 016809Y 009799X0827Y1181R000 S0
-327                 FD3   -          UA02X 002953Y 001575X0320          S0
-327                 FD1   -          UA02X 002953Y 009449X0320          S0
-327                 FD2   -          UA02X 023622Y 009449X0320          S0
-327                 FD3   -          UA01X 002953Y 001575X0320          S0
-327                 FD1   -          UA01X 002953Y 009449X0320          S0
-327                 FD2   -          UA01X 023622Y 009449X0320          S0
+327                 FD3   -          UA02X 003071Y 001575X0320          S0
+327                 FD1   -          UA02X 003071Y 009449X0320          S0
+327                 FD2   -          UA02X 023504Y 009449X0320          S0
+327                 FD3   -          UA01X 003071Y 001575X0320          S0
+327                 FD1   -          UA01X 003071Y 009449X0320          S0
+327                 FD2   -          UA01X 023504Y 009449X0320          S0
 317+RBF             CN1   -1    D0394PA00X 024203Y 005665X0000          S0
 327+RBF             CN5   -2         UA02X 018305Y 008717X0315Y0512R000 S0
 327+RBF             CN5   -4         UA02X 019289Y 008717X0315Y0512R000 S0

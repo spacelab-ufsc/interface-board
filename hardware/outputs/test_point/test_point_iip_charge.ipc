@@ -1,7 +1,7 @@
 C  Project Name : 
 C  Board Name : 
-C  Date : 11/29/2020
-C  Time : 10:46:46 PM
+C  Date : 6/29/2021
+C  Time : 12:13:59 AM
 C  
 C  --------------- Layer Stackup --------------------
 C  
@@ -12,7 +12,7 @@ C  --------------------------------------------------
 C  
 P  JOB
 P  UNITS CUST
-P  TITLE ProB0C3.tmp
+P  TITLE ProE550.tmp
 P  NUM 1.0
 P  REV A
 P  VER IPC-D-356A
@@ -46,12 +46,12 @@ P  NNAME1     V_Charging_Batteries
 327                 CN4   -0         UA02X 005256Y 009741X0827Y1181R000 S0
 327                 CN5   -0         UA02X 011890Y 009764X0827Y1181R000 S0
 327                 CN5   -0         UA02X 015374Y 009764X0827Y1181R000 S0
-327                 FD3   -          UA02X 002953Y 001575X0320          S0
-327                 FD1   -          UA02X 002953Y 009449X0320          S0
-327                 FD2   -          UA02X 029528Y 009449X0320          S0
-327                 FD3   -          UA01X 002953Y 001575X0320          S0
-327                 FD1   -          UA01X 002953Y 009449X0320          S0
-327                 FD2   -          UA01X 029528Y 009449X0320          S0
+327                 FD3   -          UA02X 003071Y 001575X0320          S0
+327                 FD1   -          UA02X 003071Y 009449X0320          S0
+327                 FD2   -          UA02X 029449Y 009449X0320          S0
+327                 FD3   -          UA01X 003071Y 001575X0320          S0
+327                 FD1   -          UA01X 003071Y 009449X0320          S0
+327                 FD2   -          UA01X 029449Y 009449X0320          S0
 317GND              CN6   -9    D0394PA00X 020587Y 004717X0000          S0
 317GND              CN3   -2    D0394PA00X 027067Y 005079X0000          S0
 317GND              CN1   -9    D0394PA00X 010547Y 004717X0000          S0
@@ -94,8 +94,8 @@ P  NNAME1     V_Charging_Batteries
 327UART_Tx2         CN4   -3         UA02X 007244Y 008658X0315Y0512R000 S0
 317UART_Tx2         VIA   -     D0118PA00X 007244Y 008150X0000          S3
 317UART_Tx2         VIA   -     D0118PA00X 014390Y 001654X0000          S3
-3171                TP3   -1    D0354PA00X 024409Y 007874X0000          S0
-3171                CN3   -1    D0394PA00X 026083Y 005079X0000          S0
-3271                CN5   -4         UA02X 014370Y 008681X0315Y0512R000 S0
-3271                CN5   -3         UA02X 013878Y 008681X0315Y0512R000 S0
+317NNAME1           TP3   -1    D0354PA00X 023622Y 007362X0000          S0
+317NNAME1           CN3   -1    D0394PA00X 026083Y 005079X0000          S0
+327NNAME1           CN5   -4         UA02X 014370Y 008681X0315Y0512R000 S0
+327NNAME1           CN5   -3         UA02X 013878Y 008681X0315Y0512R000 S0
 999

@@ -1,30 +1,20 @@
 Altium Designer Pick and Place Locations
-C:\Users\Yan Azeredo\Desktop\SpaceLab\interface-board\semi_usb_interface\sources\../\outputs\assembly_pick_place\assembly_pick_place_iip_charge.txt
+C:\Users\Yan Azeredo\Desktop\SpaceLab\interface-board\hardware\sources\../\outputs\assembly_pick_place\assembly_pick_place_iip_charge.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       29/11/20
-Time:       22:46
-Revision:   78f4b18209c8e466e7385fb47ac75735519007e3
+Date:       29/06/21
+Time:       00:13
+Revision:   50967498c3bc4a67d032e2f8c6ac9b6e977bf77f
 Variant:    No variations
 Units used: mil
 
 Designator Comment                             Layer       Footprint                     Center-X(mil) Center-Y(mil) Rotation Description                                                                                    
-FD3        Fiducial                            TopLayer    FIDUCIAL_1.3MM                295.276       157.480       0        "Fiducial for DB board variants"                                                               
-FD2        Fiducial                            TopLayer    FIDUCIAL_1.3MM                2952.756      944.882       0        "Fiducial for DB board variants"                                                               
-FD1        Fiducial                            TopLayer    FIDUCIAL_1.3MM                295.276       944.882       0        "Fiducial for DB board variants"                                                               
 CN4        "5 pin PicoBlade"                   BottomLayer PICO_BLADE_0533980571         724.409       919.977       360      "Wire-To-Board Connector, Vertical, PicoBlade 53398 Series, Surface Mount, Header, 5, 1.25 mm" 
-TP3        DNP                                 TopLayer    TEST_POINT_PTH                2440.945      787.402       0        "TEST POINT PAD"                                                                               
-TP2        DNP                                 TopLayer    TEST_POINT_PTH                1658.661      690.945       0        "TEST POINT PAD"                                                                               
-TP1        DNP                                 TopLayer    TEST_POINT_PTH                654.724       690.945       0        "TEST POINT PAD"                                                                               
 CN6        "7 POS dual line Pin Header 2.54mm" TopLayer    CONN_HEADER_VERT_14POS_2.54MM 1958.661      521.653       360      "Headers & Wire Housings 07+07 DIL VERTICAL PIN HEADER GOLD HT"                                
 CN3        "JST 2 position header 2.5mm"       TopLayer    B2B-XH-A-M(LF)(SN)            2657.480      507.874       360      "CONN HEADER TOP 2POS 2.5MM GRN"                                                               
 CN1        "7 POS dual line Pin Header 2.54mm" TopLayer    CONN_HEADER_VERT_14POS_2.54MM 954.724       521.654       360      "Headers & Wire Housings 07+07 DIL VERTICAL PIN HEADER GOLD HT"                                
-M4         "IB Mechanical Hole"                TopLayer    IB_Mechanical_Hole            3124.016      118.110       0        "Mechanical Hole for FloripaSat-2 interface boards"                                            
-M3         "IB Mechanical Hole"                TopLayer    IB_Mechanical_Hole            124.016       118.110       0        "Mechanical Hole for FloripaSat-2 interface boards"                                            
-M2         "IB Mechanical Hole"                TopLayer    IB_Mechanical_Hole            3124.016      984.252       0        "Mechanical Hole for FloripaSat-2 interface boards"                                            
-M1         "IB Mechanical Hole"                TopLayer    IB_Mechanical_Hole            124.016       984.252       0        "Mechanical Hole for FloripaSat-2 interface boards"                                            
 CN5        "4 pin Picoblade"                   BottomLayer PICO_BLADE_0533980471         1363.189      922.244       360      "Connector Header Surface Mount 4 position 0.049" (1.25mm)"                                    
 CN2        "6 pin Picoblade"                   BottomLayer PICO_BLADE_0533980671         729.331       172.244       180      "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 6 Circuits"                          
 CN7        "6 pin Picoblade"                   BottomLayer PICO_BLADE_0533980671         1414.370      172.244       180      "1.25mm Pitch PicoBlade™ Header, Surface Mount, Vertical, 6 Circuits"                          
