@@ -6,31 +6,41 @@
 <h4 align="center">Interface panels hardware project (sources and outputs).</h4>
 
 <p align="center">
+    <a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+        <img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
+    </a>
+    <a href="https://github.com/spacelab-ufsc/interface-board/releases">
+        <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/spacelab-ufsc/interface-board?style=for-the-badge">
+    </a>
+    <a href="https://github.com/spacelab-ufsc/interface-board/releases">
+        <img alt="GitHub commits since latest release (by date) for a branch" src="https://img.shields.io/github/commits-since/spacelab-ufsc/interface-board/latest/dev_hardware?style=for-the-badge">
+    </a>
+    <a href="https://github.com/spacelab-ufsc/interface-board/commits/master">
+        <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/spacelab-ufsc/interface-board/dev_hardware?style=for-the-badge">
+    </a>
+    <a href="https://github.com/spacelab-ufsc/interface-board/issues">
+        <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/issues/spacelab-ufsc/interface-board/hardware?style=for-the-badge">
+    </a>
     <a href="">
-		<img src="https://img.shields.io/badge/status-development-green?style=for-the-badge">
-	</a>
-    <a href="">
-		<img src="https://img.shields.io/badge/version-1.0-blue?style=for-the-badge">
-	</a>
-	<a href="">
-		<img src="https://img.shields.io/badge/CAD%20tool-altium%20v19.2-9cf?style=for-the-badge">
-	</a>
-	<a href="">
-		<img src="https://img.shields.io/badge/LICENSE-CERN%20OHL%202-red?style=for-the-badge">
-	</a>
+        <img src="https://img.shields.io/badge/CAD%20tool-altium%20v19.2-yellow?style=for-the-badge">
+    </a>
+    <a href="#license">
+        <img src="https://img.shields.io/badge/license-cern%20ohl%202-yellow?style=for-the-badge">
+    </a>
 </p>
 
 <p align="center">
   	<a href="#overview">Overview</a> •
   	<a href="#hardware-architecture-diagram">Architecture</a> •
   	<a href="#development">Development</a> •
+  	<a href="#version">Version</a> •
   	<a href="#license">License</a> •
   	<a href="#references">References</a>
 </p>
 
 ## Overview
 
-IIP is composed of 3 pcbs with the main components:
+IIP is composed of 4 pcbs with the main components:
 
 ### Nº1 board (1_iip_charge):
 
@@ -58,7 +68,7 @@ IIP is composed of 3 pcbs with the main components:
 * One 5 pin PicoBlade for interfacing Nº2 Board to FT4232H present on Nº3 board;
 * One 4 pin PicoBlade for RBF switch connection to EPS module;
 
-### Nº3 board (3_IIP_QuadUART):
+### Nº3 board (3_iip_QuadUART):
 
 <p align="center">
 	<img width="45%" src="https://github.com/spacelab-ufsc/interface-board/blob/documentation/doc/figures/iip_n3_top.png">
@@ -69,7 +79,7 @@ IIP is composed of 3 pcbs with the main components:
 * One Vertical mini B USB 2.0 port for quad UART channel debbuging;
 * Two 5 pin PicoBlade for interfacing boards Nº1 and Nº2;
 
-### Nº4 board (4_IIP):
+### Nº4 board (4_iip):
 
 #### Closure variant
 
@@ -99,9 +109,15 @@ IIP is composed of 3 pcbs with the main components:
 
 > This image refers to the v2.0 release.
 
+## Development
+
 #### Manufacture
 
 The folder [fabrication](https://github.com/spacelab-ufsc/interface-board/tree/master/hardware/fabrication) contain 3 "ready to go" files: the gerbers and nc_drills for manufacturing the board, the BOM with all required components, and the pick_place file for automated assembly for each iip board. Additional files are avaliable in the [outputs](https://github.com/spacelab-ufsc/interface-board/tree/master/hardware/outputs) folder, which contain several useful files and documents, such as: 3D models, bill of materials, schematics, layout prints, and draftsman.
+
+## Version
+
+Refer to the [releases](https://github.com/spacelab-ufsc/interface-board/releases) page.
 
 ## License
 
