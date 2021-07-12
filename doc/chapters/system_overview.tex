@@ -1,7 +1,7 @@
 %
 % system_overview.tex
 %
-% Copyright © 2020 by Universidade Federal de Santa Catarina.
+% Copyright © 2021 by Universidade Federal de Santa Catarina.
 %
 % Documentation of Interstage Interface Panels
 %
@@ -17,9 +17,9 @@
 %
 % \institution Universidade Federal de Santa Catarina (UFSC)
 %
-% \version 1.0.0
+% \version 2.0.0
 %
-% \date 14/07/20 (DD/MM/YY)
+% \date 05/07/21 (DD/MM/YY)
 %
 % \note Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
 %
@@ -28,7 +28,11 @@
 
 \section{Block Diagram}
 
-On figure \ref{fig:block-diagram} is displayed the full system block diagram with external devices such as the MSP-FET and a personal computer (PC) during normal usage of IIP. Up to four CubeSat modules can be acessed from its interfaces, been though the pin headers or the USB port. For a specific project, the core modules (EPS, OBDH and TTC) and a optional payload are already represented with their respective interconnections. These connections are done internally with PicoBlade connectors, which are compatible with SpaceLab's modules. 
+On figure \ref{fig:block-diagram} is displayed the full system block diagram with external devices such as the MSP-FET and a personal computer (PC) during normal usage of IIP.
+Up to four CubeSat modules can be acessed from its interfaces, been though the pin headers or the USB port. 
+For the FloripaSat-2 mission, the core modules (EPS, OBDH and TTC) and a optional payload are already represented with their respective interconnections.
+These connections are done internally with PicoBlade connectors, which are compatible with the mission's modules. 
+The fourth board, labeled IIP Nº4, has two variants, one only serves as a closure for the side panel of the CubeSat structure, while the other features a central hole for a M12 camera lens and mouting holes for a breakout board.
 
 \begin{figure}[!ht]
     \begin{center}
@@ -40,22 +44,30 @@ On figure \ref{fig:block-diagram} is displayed the full system block diagram wit
 
 \section{Board Numeration}
 
-Since the IIP is divided up to 3 boards, a numeration was adopted for better refering each PCB on this document. The numeration followed the criteria of the mounting sides determined by the cartesian axis of a Poly Picosatellite Orbital Deployer (P-POD) \cite{p-pod-user-guide}. Starting the numeration "Nº1" from the referenced -Y plane, the other boards are classified clock-wise that can be found on figure \ref{fig:iip-numeration}, each labeled axis can be better seen on figures \ref{fig:iip-all-boards-top-bottom-1} to \ref{fig:iip-all-boards-top-bottom-2}. The boards also received names with their unique functionality, Nº1 board is also called "IIP Charge", Nº2 board the "IIP RBF" and Nº3 board the "IIP Quad UART", these nominations are present on the PCBs source files.
+Since the IIP is divided up to 4 boards, a numeration was adopted for better refering each PCB on this document. The numeration followed the criteria of the mounting sides determined by the cartesian axis of a Poly Picosatellite Orbital Deployer (P-POD) \cite{p-pod-user-guide}. Starting the numeration "Nº1" from the referenced -Y plane, the other boards are classified clock-wise that can be found on figure \ref{fig:iip-numeration}, each labeled axis can be better seen on \autoref{fig:iip-all-boards}. The boards also received names with their unique functionality, Nº1 board is also called "IIP Charge", Nº2 board the "IIP RBF", Nº3 board the "IIP Quad UART" and Nº4 board the "Closure" or "Camera" depending on its variant, these nominations are present on the PCBs source files.
 
 \begin{figure}[!ht]
   \centering
-    \includegraphics[width=0.5\linewidth]{figures/iip_n1_perspective.png}
+    \includegraphics[width=0.4\linewidth]{figures/iip_n1_perspective.png}
     \caption{IIP Nº1 board.}
-    \includegraphics[width=0.5\linewidth]{figures/iip_n2_perspective.png}
+    \includegraphics[width=0.4\linewidth]{figures/iip_n2_perspective.png}
     \caption{IIP Nº2 board.}
-    \includegraphics[width=0.5\linewidth]{figures/iip_n3_perspective.png}
+    \includegraphics[width=0.4\linewidth]{figures/iip_n3_perspective.png}
     \caption{IIP Nº3 board.}
+    \includegraphics[width=0.4\linewidth]{figures/iip_n4_closure_perspective.png}
+    \caption{IIP Nº4 closure variant board.}
+    \includegraphics[width=0.4\linewidth]{figures/iip_n4_camera_perspective.png}
+    \caption{IIP Nº4 camera variant board.}
     \label{fig:iip-numeration}
 \end{figure}
 
 \section{Board Dimensions}
 
-IIP is to be mouted vertically inside on the sides of a 2U CubeSat structure, this makes de Nº1 and Nº3 boards having the same PCB dimensions because they are on the same X plane of reference, see figure \ref{fig:iip-n1-n3-dimensions}. The Nº2 board dimensions can be seen in figure \ref{fig:iip-n2-dimensions}. The "structure contact area" is the place where the metal frame of the CubeSat structure will be overlapping. All other measurements important to integration and assembly are present in the draftsman PDF documents of each board here \cite{iip-draftsman} on GitHub.
+IIP is to be mouted vertically inside on the sides of a 2U/3U CubeSat structure, this makes de Nº1 and Nº3 boards having the same PCB dimensions because they are on the same X plane of reference, see figure \ref{fig:iip-n1-n3-dimensions}. 
+The Nº2 and Nº4 board dimensions can be seen in figure \ref{fig:iip-n2-n4-dimensions}.
+The "structure contact area" is the place where the metal frame of the CubeSat structure will be overlapping.
+All other measurements important to integration and assembly are present in the draftsman PDF documents of each board are present on GitHub\cite{iip-draftsman}.
+Refer to \autoref{sec:integration} for more details on mechenical integration of IIP.
 
 \begin{figure}[!ht]
   \centering
@@ -63,6 +75,6 @@ IIP is to be mouted vertically inside on the sides of a 2U CubeSat structure, th
     \caption{IIP Nº1 and Nº3 top dimensions.}
     \label{fig:iip-n1-n3-dimensions}
     \includegraphics[width=\linewidth]{figures/iip_n2_dimensions.png}
-    \caption{IIP Nº2 board top dimensions.}
-    \label{fig:iip-n2-dimensions}
+    \caption{IIP Nº2 and Nº4 board top dimensions.}
+    \label{fig:iip-n2-n4-dimensions}
 \end{figure}
