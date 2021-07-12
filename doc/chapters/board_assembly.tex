@@ -32,8 +32,12 @@ IIP has the Bill of Material (BOM) for each board avalaible at its GitHub reposi
 
 There is only one "do not place" (DNP) component present in the Nº3 board, it is the labeled R4 pad with 0805 size (2012 metric) available for soldering the mini USB type B chassi to GND for Electromagnetic compatibility (EMC), see \ref{fig:iip-usb-port}. This can be done soldering a zero-ohm resistor for a DC path or capacitor for a high-frequency path between shield and signal ground, see section 2.2.2 of the document \cite{ftdi-usb-hardware-guidelines}.
 
-\section{Integration}
+\section{Integration} \label{sec:integration}
 
-IIP board Nº1 is to be mouted vertically inside the 2U strucuture on the -X referenced plane. IIP board Nº3 is to be mouted in the same plane of reference but in the other side, that is the +X plane. IIP board Nº2 is to be mouted on the -Y plane. The integration order of the interface panels follows their numeration, this means the first PCB to be integrated is Nº1, then Nº2 and at last Nº3. The internal PicoBlade connections to the modules must be done before proceding to mount the other panels.
+IIP board Nº1 is to be mouted vertically inside the 2U/3U strucuture on the -X referenced plane.
+IIP board Nº3 is to be mouted in the same plane of reference but in the other side, that is the +X plane.
+IIP board Nº2 is to be mouted on the -Y plane, while the IIP board Nº4 on the +Y plane.
+The integration order of the interface panels follows their numeration, this means the first PCB to be integrated is Nº1, then Nº2, Nº3 and at last Nº4.
+The internal PicoBlade connections to the modules must be done before proceding to mount the other panels.
 
 The last cables to be connected are between Nº3 (figure \ref{fig:iip-n3-picoblades}) and Nº1 and Nº2 (figures \ref{fig:iip-n1-uart-picoblade} and \ref{fig:iip-n2-uart-picoblade}) for the labeled "UART" PicoBlades. The only interface of IIP that can be acessed when the 2U satellite is already integrated to the P-POD is the Nº2 board which is located the RBF pin and JTAGs 3 and 4.
