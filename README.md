@@ -6,17 +6,23 @@
 <h4 align="center">Interface Panels designed and developed by SpaceLab.</h4>
 
 <p align="center">
-    <a href="">
-		<img src="https://img.shields.io/badge/status-development-green?style=for-the-badge">
+	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
-    <a href="">
-		<img src="https://img.shields.io/badge/version-1.0-blue?style=for-the-badge">
+	<a href="https://github.com/spacelab-ufsc/interface-board/releases">
+		<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/spacelab-ufsc/interface-board?style=for-the-badge">
 	</a>
-	<a href="">
-		<img src="https://img.shields.io/badge/CAD%20tool-altium%20v19.2-9cf?style=for-the-badge">
+	<a href="https://github.com/spacelab-ufsc/interface-board/releases">
+		<img alt="GitHub commits since latest release (by date)" src="https://img.shields.io/github/commits-since/spacelab-ufsc/interface-board/latest?style=for-the-badge">
 	</a>
-	<a href="">
-		<img src="https://img.shields.io/badge/LICENSE-CERN%20OHL%202-red?style=for-the-badge">
+	<a href="https://github.com/spacelab-ufsc/interface-board/commits/master">
+		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/spacelab-ufsc/interface-board?style=for-the-badge">
+	</a>
+	<a href="https://github.com/spacelab-ufsc/interface-board/issues">
+		<img alt="GitHub issues" src="https://img.shields.io/github/issues/spacelab-ufsc/interface-board?style=for-the-badge">
+	</a>
+	<a href="https://github.com/spacelab-ufsc/interface-board/graphs/contributors">
+		<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/spacelab-ufsc/interface-board?color=yellow&style=for-the-badge">
 	</a>
 </p>
 
@@ -32,7 +38,16 @@
 
 ## Overview
 
-Interstage Interface Panels (IIP) are vertical mounted PCBs designed to give external access to the modules inside of a 2U or 3U CubeSat during final assembly, integration and testing. IIP is composed by 3 different boards, the complete set allows for the nanosatellite to be charged, programed and debugged.
+Interstage Interface Panels (IIP) are vertical mounted PCBs designed to give external access to the modules inside of a 2U or 3U CubeSat during final assembly, integration and testing. IIP is composed by 4 different boards, the complete set allows for the nanosatellite to be charged, programed and debugged.
+
+
+## Repository Organization
+	- doc: IIP documentation.
+	- hardware: IIP hardware project (sources and outputs).
+
+## Releases
+
+The IIP hardware releases are synchronized in order to garantee compatibility. Refer to the [documentation](https://github.com/spacelab-ufsc/interface-board/tree/master/doc) for compatibility notes.
 
 ## License
 
