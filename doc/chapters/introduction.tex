@@ -1,7 +1,7 @@
 %
 % introduction.tex
 %
-% Copyright © 2020 by Universidade Federal de Santa Catarina.
+% Copyright © 2021 by Universidade Federal de Santa Catarina.
 %
 % Documentation of Interstage Interface Panels
 %
@@ -17,24 +17,27 @@
 %
 % \institution Universidade Federal de Santa Catarina (UFSC)
 %
-% \version 1.0.0
+% \version 2.0.0
 %
-% \date 14/07/20 (DD/MM/YY)
+% \date 05/07/21 (DD/MM/YY)
 %
 % \note Credits to Gabriel Mariano Marcelino <gabriel.marcelino@spacelab.ufsc.br> for the creation of the SpaceLab Template
 %
 
 \chapter{Introduction} \label{ch:introduction}
 
-The Interstage Interface Panels (IIP) are three vertical internally mounted PCBs designed 
-to give external access up to four modules inside of a 2U CubeSat during 
-final assembly, integration and testing (AIT) before launch.
-The complete set of the boards allow the nanosatellite to be charged, programed and debugged. The usage of this hardware platform is taking into account the use of a MSP-FET: MSP430 Flash Emulation Tool from Texas Instruments for JTAG programing and debugging, UART debugging through a mini USB type B port interfacing the FT4232H USB bridge IC from FTDI, a JST XH header for charging internal batteries and a Remove Before Flight (RBF) pin header. These tools and methodology for testing are definied directly from the project main use on the GOLDS-UFSC mission \cite{golds-ufsc} been done with the support of SpaceLab UFSC.
+The Interstage Interface Panels (IIP) are four vertical internally mounted Printed Circuit Boards (PCB\nomenclature{\textbf{PCB}}{\textit{Printed Circuit Board.}}) designed 
+to give external access up to four modules inside of a 2U or 3U CubeSat during 
+final assembly, integration and testing (AIT\nomenclature{\textbf{AIT}}{\textit{Assembly, integration and testing.}}) before launch.
+The complete set of the boards allow the nanosatellite to be charged, programed and debugged. 
+The usage of this project is taking into account the use of a MSP-FET: MSP430 Flash Emulation Tool from Texas Instruments for JTAG programing and debugging, UART debugging through a mini USB type B port interfacing the FT4232H USB bridge Integrated Circuit (IC\nomenclature{\textbf{IC}}{\textit{Integrated Circuit.}}) from FTDI, a JST XH header for charging internal batteries and a Remove Before Flight (RBF\nomenclature{\textbf{RBF}}{\textit{Remove Before Flight.}}) pin header.
+One board variant features an opening for a M12 camera lens.  
+These tools and methodology for testing are definied directly from the project main use on the FloripaSat-2 mission \cite{floripasat2} been done by SpaceLab UFSC.
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=\textwidth]{figures/iip_fullset.png}
-    \caption{Interstage Interface Panels fullset.}
+    \caption{Interstage Interface Panel boards.}
     \label{iip-fullset}
   \end{figure}
 
